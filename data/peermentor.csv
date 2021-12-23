@@ -1,0 +1,865 @@
+id,gender,age,region,residence,duration_use,injecting_status,housing_status,referral_source,rehab_success,intervention,wellbeing1yr,relapse_days,last_study_obs,last_obs_outcome
+1,male,32,North East,rural,6,Never injected,No problem,Criminal justice,No,peer mentoring,33.6,,720,Study completed
+2,male,43,South East,rural,5,Currently injecting,No problem,Self/family/friends,No,standard of care,63.5,22,630,LTFU
+3,male,42,North West,urban,3,Never injected,Housing problem,Self/family/friends,No,standard of care,56.7,,720,Study completed
+4,male,31,North East,urban,36,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,54,,720,Study completed
+5,male,35,North East,urban,16,Never injected,Housing problem,Criminal justice,Yes,standard of care,36.9,,720,Study completed
+6,male,37,West Midlands,rural,33,Previously injected,No problem,Health services/social care,No,standard of care,49.5,,720,Study completed
+7,male,30,South East,urban,2,Previously injected,No problem,Self/family/friends,Yes,standard of care,77.4,106,720,Study completed
+8,male,39,South East,urban,34,Never injected,No problem,Self/family/friends,No,standard of care,34.5,111,720,Study completed
+9,male,27,South East,rural,29,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,36.9,24,720,Study completed
+10,male,39,West Midlands,urban,4,Previously injected,Urgent housing problem,Health services/social care,Yes,peer mentoring,,,270,LTFU
+11,female,47,West Midlands,rural,7,Never injected,No problem,Health services/social care,Yes,standard of care,44.4,403,720,Study completed
+12,male,33,North East,urban,1,Never injected,No problem,Self/family/friends,No,standard of care,,,180,LTFU
+13,male,38,West Midlands,urban,14,Currently injecting,No problem,Self/family/friends,No,peer mentoring,39.6,159,720,Study completed
+14,female,39,North West,urban,10,Never injected,Urgent housing problem,Criminal justice,No,peer mentoring,32.8,107,720,Study completed
+15,female,47,West Midlands,rural,12,Previously injected,Housing problem,Self/family/friends,Yes,standard of care,40.9,18,720,Study completed
+16,male,26,West Midlands,urban,7,Never injected,No problem,Self/family/friends,Yes,peer mentoring,66.5,360,450,LTFU
+17,male,28,South East,urban,7,Previously injected,No problem,Self/family/friends,Yes,standard of care,43.3,174,720,Study completed
+18,female,65,South East,urban,25,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,59.2,,720,Study completed
+19,male,38,North West,rural,9,Previously injected,Housing problem,Health services/social care,Yes,peer mentoring,73.2,,360,LTFU
+20,male,44,North West,urban,30,Previously injected,No problem,Health services/social care,No,standard of care,22.8,,720,Study completed
+21,male,42,North East,urban,7,Currently injecting,No problem,Health services/social care,No,peer mentoring,37.7,37,450,LTFU
+22,male,32,South East,rural,6,Never injected,No problem,Self/family/friends,Yes,peer mentoring,,,180,LTFU
+23,male,33,West Midlands,urban,1,Never injected,No problem,Health services/social care,No,standard of care,59.2,,720,Study completed
+24,female,35,West Midlands,urban,0,Never injected,No problem,Self/family/friends,Yes,standard of care,55.2,23,720,Study completed
+25,male,35,North East,rural,1,Previously injected,Urgent housing problem,Self/family/friends,Yes,standard of care,58.6,,720,Study completed
+26,male,40,North West,urban,8,Previously injected,No problem,Health services/social care,Yes,standard of care,58.4,,720,Study completed
+27,female,63,North East,urban,18,Previously injected,No problem,Self/family/friends,Yes,standard of care,41.9,502,720,Study completed
+28,male,53,North East,rural,2,Previously injected,No problem,Health services/social care,Yes,peer mentoring,69.4,,720,Study completed
+29,male,30,North East,rural,20,Never injected,No problem,Criminal justice,No,standard of care,,,0,LTFU
+30,male,41,North East,urban,6,Currently injecting,No problem,Self/family/friends,Yes,standard of care,51.8,,720,Study completed
+31,female,65,West Midlands,rural,56,Previously injected,Urgent housing problem,Self/family/friends,No,peer mentoring,50.5,163,720,Study completed
+32,male,36,South East,urban,8,Previously injected,Housing problem,Health services/social care,No,peer mentoring,37.3,,720,Study completed
+33,male,41,North West,urban,6,Currently injecting,No problem,Self/family/friends,Yes,peer mentoring,58.2,,720,Study completed
+34,male,37,North West,urban,18,Never injected,Urgent housing problem,Criminal justice,No,standard of care,23.5,90,720,Study completed
+35,male,32,North East,rural,1,Previously injected,No problem,Self/family/friends,No,peer mentoring,,,0,LTFU
+36,male,42,South East,urban,21,Currently injecting,No problem,Criminal justice,Yes,standard of care,37,20,720,Study completed
+37,female,54,South East,urban,56,Previously injected,No problem,Criminal justice,No,peer mentoring,,,270,LTFU
+38,male,59,North East,urban,26,Never injected,Housing problem,Self/family/friends,Yes,peer mentoring,43,,720,Study completed
+39,male,28,North East,urban,23,Previously injected,Housing problem,Self/family/friends,Yes,peer mentoring,58.9,134,720,Study completed
+40,female,45,North West,urban,12,Never injected,No problem,Self/family/friends,No,peer mentoring,,,0,LTFU
+41,male,46,South East,urban,7,Previously injected,Housing problem,Self/family/friends,Yes,peer mentoring,54.5,,720,Study completed
+42,male,32,West Midlands,rural,1,Never injected,No problem,Health services/social care,No,standard of care,58.8,672,720,Study completed
+43,male,35,North West,urban,36,Never injected,No problem,Self/family/friends,Yes,peer mentoring,56.5,39,630,LTFU
+44,male,32,North West,urban,14,Currently injecting,Urgent housing problem,Criminal justice,Yes,standard of care,32.5,,720,Study completed
+45,female,52,West Midlands,urban,38,Never injected,No problem,Self/family/friends,Yes,standard of care,48.3,,720,Study completed
+46,female,41,South East,urban,12,Previously injected,Housing problem,Criminal justice,Yes,standard of care,45,,720,Study completed
+47,male,37,South East,urban,72,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,56.9,,720,Study completed
+48,female,62,North East,urban,24,Currently injecting,Housing problem,Health services/social care,No,peer mentoring,35.4,,720,Study completed
+49,male,31,West Midlands,rural,6,Currently injecting,No problem,Criminal justice,No,peer mentoring,50.3,,720,Study completed
+50,female,37,North West,urban,5,Never injected,No problem,Criminal justice,No,standard of care,,,90,LTFU
+51,male,35,South East,rural,15,Never injected,No problem,Self/family/friends,Yes,standard of care,75.6,,720,Study completed
+52,male,38,West Midlands,urban,4,Never injected,Urgent housing problem,Criminal justice,Yes,standard of care,29,,720,Study completed
+53,male,35,North West,rural,9,Previously injected,Urgent housing problem,Health services/social care,No,peer mentoring,22.7,403,720,Study completed
+54,male,41,West Midlands,rural,11,Currently injecting,No problem,Self/family/friends,Yes,peer mentoring,50.1,20,720,Study completed
+55,male,25,North West,urban,10,Currently injecting,Urgent housing problem,Self/family/friends,No,standard of care,37.2,60,720,Study completed
+56,male,29,North East,rural,1,Never injected,No problem,Self/family/friends,Yes,peer mentoring,56.5,,720,Study completed
+57,female,42,South East,urban,0,Missing,No problem,Health services/social care,No,standard of care,36.4,47,720,Study completed
+58,female,61,North East,urban,5,Never injected,Urgent housing problem,Criminal justice,No,standard of care,21.9,48,720,Study completed
+59,female,40,South East,urban,9,Previously injected,Housing problem,Criminal justice,No,peer mentoring,,,270,LTFU
+60,female,58,North West,rural,10,Never injected,Housing problem,Criminal justice,No,peer mentoring,34.4,,720,Study completed
+61,male,35,West Midlands,urban,42,Previously injected,Urgent housing problem,Criminal justice,No,peer mentoring,24.4,205,720,Study completed
+62,male,30,North West,urban,11,Never injected,No problem,Health services/social care,No,peer mentoring,33.6,,720,Study completed
+63,female,56,West Midlands,rural,12,Never injected,No problem,Criminal justice,Yes,peer mentoring,48.1,,720,Study completed
+64,male,20,South East,urban,46,Currently injecting,No problem,Self/family/friends,No,standard of care,45.9,153,720,Study completed
+65,male,31,South East,urban,4,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,48.3,112,720,Study completed
+66,male,29,North West,urban,2,Never injected,Housing problem,Self/family/friends,Yes,standard of care,80.7,,720,Study completed
+67,male,32,South East,urban,18,Previously injected,Urgent housing problem,Self/family/friends,No,peer mentoring,26.2,,630,LTFU
+68,male,43,South East,urban,9,Currently injecting,Urgent housing problem,Self/family/friends,No,peer mentoring,37.1,74,720,Study completed
+69,male,46,South East,urban,33,Previously injected,No problem,Health services/social care,Yes,peer mentoring,,,0,LTFU
+70,male,42,North East,urban,3,Never injected,Urgent housing problem,Self/family/friends,Yes,peer mentoring,64.6,,720,Study completed
+71,male,31,South East,urban,40,Currently injecting,Housing problem,Self/family/friends,No,peer mentoring,40.5,202,720,Study completed
+72,male,57,South East,urban,36,Never injected,No problem,Criminal justice,Yes,peer mentoring,68.8,,720,Study completed
+73,male,49,South East,urban,1,Currently injecting,Urgent housing problem,Self/family/friends,No,standard of care,54.6,84,540,LTFU
+74,male,39,North East,urban,14,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,,22,90,LTFU
+75,female,59,West Midlands,urban,8,Never injected,Urgent housing problem,Health services/social care,Yes,peer mentoring,44.8,,720,Study completed
+76,male,24,West Midlands,urban,1,Previously injected,No problem,Self/family/friends,Yes,standard of care,43.9,37,720,Study completed
+77,female,59,North West,urban,48,Never injected,Urgent housing problem,Health services/social care,Yes,standard of care,,,90,LTFU
+78,male,42,North East,rural,36,Currently injecting,No problem,Self/family/friends,No,peer mentoring,53.1,,720,Study completed
+79,male,31,North East,urban,6,Previously injected,Housing problem,Self/family/friends,No,standard of care,45.4,228,720,Study completed
+80,female,53,North West,urban,1,Previously injected,Urgent housing problem,Health services/social care,Yes,standard of care,38.1,35,720,Study completed
+81,male,27,West Midlands,urban,10,Currently injecting,No problem,Health services/social care,No,standard of care,,,0,LTFU
+82,male,30,West Midlands,urban,22,Never injected,No problem,Self/family/friends,Yes,standard of care,55.5,,720,Study completed
+83,male,42,South East,urban,18,Never injected,No problem,Health services/social care,Yes,standard of care,44.7,6,720,Study completed
+84,female,56,North East,rural,2,Currently injecting,Urgent housing problem,Health services/social care,No,standard of care,51,18,720,Study completed
+85,male,37,West Midlands,rural,4,Never injected,No problem,Self/family/friends,Yes,peer mentoring,51.2,,720,Study completed
+86,male,44,South East,urban,61,Currently injecting,No problem,Self/family/friends,No,peer mentoring,45.6,,720,Study completed
+87,male,23,North East,urban,32,Previously injected,No problem,Self/family/friends,Yes,standard of care,36.6,32,720,Study completed
+88,male,36,West Midlands,urban,0,Currently injecting,No problem,Health services/social care,Yes,peer mentoring,59,255,720,Study completed
+89,male,37,South East,urban,33,Missing,No problem,Health services/social care,No,standard of care,28.2,,720,Study completed
+90,male,28,North West,urban,6,Previously injected,Housing problem,Criminal justice,Yes,standard of care,52.4,118,720,Study completed
+91,female,39,West Midlands,urban,12,Never injected,No problem,Self/family/friends,No,peer mentoring,37.1,,540,LTFU
+92,male,31,West Midlands,urban,15,Currently injecting,No problem,Criminal justice,No,peer mentoring,,,0,LTFU
+93,female,40,North East,rural,36,Never injected,No problem,Self/family/friends,Yes,standard of care,50.8,,720,Study completed
+94,female,46,North West,urban,4,Never injected,Housing problem,Self/family/friends,Yes,standard of care,46.6,201,720,Study completed
+95,female,36,West Midlands,rural,48,Never injected,No problem,Self/family/friends,Yes,peer mentoring,65.5,20,720,Study completed
+96,male,27,North East,urban,87,Never injected,Urgent housing problem,Self/family/friends,Yes,standard of care,45.5,70,720,Study completed
+97,male,48,South East,urban,6,Never injected,Urgent housing problem,Health services/social care,Yes,peer mentoring,31.5,114,720,Study completed
+98,female,65,West Midlands,urban,5,Never injected,Housing problem,Self/family/friends,No,peer mentoring,29.2,,720,Study completed
+99,female,48,West Midlands,urban,23,Previously injected,No problem,Self/family/friends,No,peer mentoring,37,,720,Study completed
+100,male,35,West Midlands,urban,42,Currently injecting,No problem,Criminal justice,Yes,standard of care,49.3,34,720,Study completed
+101,female,51,North West,urban,6,Previously injected,No problem,Self/family/friends,No,peer mentoring,,,90,LTFU
+102,female,41,South East,urban,18,Never injected,Urgent housing problem,Self/family/friends,Yes,peer mentoring,57.8,109,720,Study completed
+103,male,44,South East,urban,19,Previously injected,No problem,Self/family/friends,Yes,standard of care,66.5,44,720,Study completed
+104,female,57,North East,rural,36,Never injected,No problem,Self/family/friends,No,standard of care,36.3,,720,Study completed
+105,male,37,West Midlands,urban,18,Never injected,No problem,Self/family/friends,Yes,standard of care,62.4,,720,Study completed
+106,male,31,North East,urban,12,Never injected,No problem,Criminal justice,Yes,peer mentoring,42.4,77,720,Study completed
+107,female,42,South East,urban,8,Never injected,Housing problem,Self/family/friends,Yes,peer mentoring,41.6,610,720,Study completed
+108,male,47,North West,rural,5,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,66.2,,720,Study completed
+109,female,41,West Midlands,rural,11,Currently injecting,No problem,Health services/social care,No,peer mentoring,44.3,,720,Study completed
+110,male,30,North West,urban,0,Never injected,No problem,Criminal justice,No,standard of care,25.9,19,360,LTFU
+111,female,66,South East,rural,6,Previously injected,Housing problem,Self/family/friends,Yes,standard of care,44.9,,720,Study completed
+112,female,55,North West,rural,18,Currently injecting,Housing problem,Criminal justice,No,standard of care,43.1,,630,LTFU
+113,male,29,North West,urban,21,Never injected,No problem,Self/family/friends,Yes,peer mentoring,43.3,,720,Study completed
+114,male,48,West Midlands,rural,22,Never injected,No problem,Self/family/friends,Yes,standard of care,73.1,606,720,Study completed
+115,male,22,West Midlands,urban,3,Currently injecting,Housing problem,Criminal justice,Yes,standard of care,35.4,239,540,LTFU
+116,male,45,South East,urban,43,Previously injected,No problem,Self/family/friends,No,standard of care,39.1,,720,Study completed
+117,male,36,North East,urban,19,Currently injecting,Housing problem,Criminal justice,Yes,peer mentoring,48.6,418,450,LTFU
+118,female,41,West Midlands,urban,11,Never injected,No problem,Self/family/friends,Yes,peer mentoring,46.5,246,720,Study completed
+119,female,52,North East,urban,2,Previously injected,No problem,Criminal justice,Yes,peer mentoring,56.6,72,720,Study completed
+120,male,38,North East,urban,18,Never injected,Urgent housing problem,Self/family/friends,No,peer mentoring,36.9,,720,Study completed
+121,female,47,North West,rural,10,Never injected,No problem,Self/family/friends,Yes,peer mentoring,52.6,719,720,Study completed
+122,male,29,West Midlands,urban,7,Never injected,No problem,Self/family/friends,Yes,standard of care,46.6,515,720,Study completed
+123,male,31,West Midlands,urban,7,Never injected,Housing problem,Self/family/friends,Yes,standard of care,45.4,212,720,Study completed
+124,male,48,West Midlands,rural,103,Currently injecting,Urgent housing problem,Criminal justice,No,peer mentoring,,,270,LTFU
+125,male,63,West Midlands,urban,2,Currently injecting,Housing problem,Criminal justice,Yes,peer mentoring,44.3,19,720,Study completed
+126,male,34,West Midlands,rural,14,Previously injected,Housing problem,Health services/social care,No,standard of care,37.8,,720,Study completed
+127,male,27,South East,urban,7,Never injected,No problem,Health services/social care,Yes,peer mentoring,24,,720,Study completed
+128,male,32,South East,urban,120,Never injected,No problem,Criminal justice,No,peer mentoring,,,270,LTFU
+129,female,42,West Midlands,urban,72,Previously injected,No problem,Criminal justice,Yes,standard of care,38.8,,540,LTFU
+130,female,58,North West,urban,9,Never injected,No problem,Self/family/friends,Yes,standard of care,48.7,65,720,Study completed
+131,male,45,North East,urban,4,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,44.5,,720,Study completed
+132,female,40,North East,urban,16,Never injected,Housing problem,Self/family/friends,Yes,standard of care,38.4,155,720,Study completed
+133,female,57,North West,urban,48,Never injected,Housing problem,Self/family/friends,Yes,standard of care,60.3,268,720,Study completed
+134,male,42,West Midlands,urban,3,Previously injected,No problem,Self/family/friends,Yes,standard of care,59.9,700,720,Study completed
+135,male,39,West Midlands,urban,4,Currently injecting,No problem,Self/family/friends,Yes,peer mentoring,54.9,,720,Study completed
+136,female,65,South East,urban,16,Never injected,No problem,Criminal justice,Yes,peer mentoring,23.4,,360,LTFU
+137,female,61,South East,urban,50,Previously injected,Urgent housing problem,Self/family/friends,No,peer mentoring,22,98,720,Study completed
+138,male,46,West Midlands,rural,7,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,66.2,72,720,Study completed
+139,female,48,West Midlands,rural,9,Previously injected,No problem,Self/family/friends,Yes,standard of care,60,637,720,Study completed
+140,female,54,West Midlands,rural,18,Currently injecting,Urgent housing problem,Criminal justice,Yes,peer mentoring,46.3,,720,Study completed
+141,male,34,South East,urban,1,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,13.7,99,720,Study completed
+142,male,49,West Midlands,urban,24,Currently injecting,No problem,Self/family/friends,No,peer mentoring,,,90,LTFU
+143,male,35,North East,rural,12,Never injected,No problem,Health services/social care,Yes,peer mentoring,65.7,,720,Study completed
+144,male,33,North West,urban,37,Never injected,Urgent housing problem,Criminal justice,Yes,standard of care,52,,720,Study completed
+145,male,25,West Midlands,urban,3,Currently injecting,No problem,Self/family/friends,Yes,standard of care,32.6,84,720,Study completed
+146,male,48,North West,urban,1,Never injected,Urgent housing problem,Health services/social care,Yes,peer mentoring,52.6,,450,LTFU
+147,male,41,North West,urban,12,Currently injecting,No problem,Criminal justice,Yes,standard of care,57.5,,720,Study completed
+148,male,31,West Midlands,urban,2,Never injected,No problem,Self/family/friends,No,peer mentoring,49.7,103,720,Study completed
+149,female,48,North East,urban,24,Previously injected,No problem,Criminal justice,Yes,standard of care,33.1,7,720,Study completed
+150,male,44,North West,urban,24,Previously injected,Other,Self/family/friends,No,peer mentoring,27.8,,720,Study completed
+151,male,26,North East,urban,27,Currently injecting,Housing problem,Health services/social care,No,peer mentoring,32.8,,720,Study completed
+152,male,36,West Midlands,urban,12,Never injected,Urgent housing problem,Self/family/friends,Yes,standard of care,40.4,22,540,LTFU
+153,male,33,West Midlands,urban,3,Previously injected,Housing problem,Self/family/friends,No,peer mentoring,24.1,19,720,Study completed
+154,male,33,West Midlands,urban,6,Never injected,Housing problem,Criminal justice,No,peer mentoring,41.4,,720,Study completed
+155,male,35,South East,urban,99,Previously injected,No problem,Criminal justice,No,peer mentoring,,,0,LTFU
+156,male,31,North East,urban,32,Currently injecting,Housing problem,Criminal justice,No,standard of care,20.7,,720,Study completed
+157,male,32,North West,urban,3,Currently injecting,No problem,Criminal justice,No,standard of care,30.2,52,630,LTFU
+158,male,36,West Midlands,urban,65,Currently injecting,No problem,Criminal justice,No,standard of care,39,,720,Study completed
+159,male,32,North East,urban,19,Never injected,Housing problem,Self/family/friends,Yes,standard of care,41.8,,720,Study completed
+160,male,35,North East,urban,2,Never injected,Housing problem,Criminal justice,Yes,peer mentoring,,,0,LTFU
+161,male,43,North West,rural,46,Previously injected,Urgent housing problem,Self/family/friends,No,peer mentoring,55.3,,720,Study completed
+162,male,35,North East,rural,24,Never injected,Urgent housing problem,Health services/social care,Yes,standard of care,49.1,,720,Study completed
+163,female,44,South East,rural,32,Previously injected,Housing problem,Self/family/friends,No,standard of care,47,4,720,Study completed
+164,male,46,West Midlands,urban,88,Previously injected,No problem,Self/family/friends,Yes,standard of care,60.5,,720,Study completed
+165,male,39,North East,urban,19,Previously injected,No problem,Self/family/friends,No,standard of care,47,,450,LTFU
+166,male,33,West Midlands,urban,48,Never injected,No problem,Self/family/friends,Yes,peer mentoring,53.7,,720,Study completed
+167,male,31,South East,urban,11,Never injected,Housing problem,Self/family/friends,Yes,standard of care,64.1,108,720,Study completed
+168,female,34,West Midlands,rural,18,Previously injected,No problem,Health services/social care,Yes,standard of care,44.6,249,720,Study completed
+169,male,31,South East,urban,60,Never injected,No problem,Self/family/friends,Yes,standard of care,44.8,,720,Study completed
+170,male,45,North West,urban,70,Previously injected,No problem,Criminal justice,No,peer mentoring,8.7,,720,Study completed
+171,male,39,North West,rural,3,Previously injected,Housing problem,Self/family/friends,No,standard of care,54.8,157,720,Study completed
+172,female,44,North East,urban,4,Never injected,No problem,Self/family/friends,Yes,peer mentoring,,,0,LTFU
+173,female,80,West Midlands,rural,2,Currently injecting,No problem,Health services/social care,No,peer mentoring,,,270,LTFU
+174,male,43,North East,urban,15,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,36.8,,720,Study completed
+175,male,37,North West,urban,49,Never injected,No problem,Self/family/friends,No,peer mentoring,34.7,,720,Study completed
+176,male,30,South East,urban,13,Previously injected,Urgent housing problem,Self/family/friends,No,standard of care,54,,720,Study completed
+177,male,43,West Midlands,rural,55,Never injected,Urgent housing problem,Self/family/friends,No,standard of care,59,261,720,Study completed
+178,female,41,North East,rural,1,Currently injecting,No problem,Self/family/friends,No,standard of care,36.4,,720,Study completed
+179,male,37,South East,rural,30,Currently injecting,Urgent housing problem,Health services/social care,No,standard of care,45.8,703,720,Study completed
+180,male,34,South East,urban,43,Never injected,Housing problem,Health services/social care,Yes,standard of care,28.8,97,720,Study completed
+181,male,51,North East,rural,25,Currently injecting,No problem,Self/family/friends,No,peer mentoring,45.9,638,720,Study completed
+182,male,42,West Midlands,rural,12,Never injected,Housing problem,Self/family/friends,Yes,peer mentoring,69.6,,720,Study completed
+183,male,32,North West,urban,61,Currently injecting,Urgent housing problem,Self/family/friends,No,peer mentoring,27.6,,450,LTFU
+184,male,45,South East,urban,23,Never injected,No problem,Health services/social care,No,peer mentoring,45.2,,720,Study completed
+185,male,42,South East,rural,9,Currently injecting,Housing problem,Self/family/friends,Yes,standard of care,56,8,720,Study completed
+186,female,35,South East,urban,24,Never injected,Urgent housing problem,Health services/social care,No,peer mentoring,40.7,,720,Study completed
+187,female,45,North East,rural,52,Currently injecting,Urgent housing problem,Criminal justice,No,standard of care,,49,270,LTFU
+188,female,39,South East,urban,16,Never injected,Urgent housing problem,Health services/social care,Yes,peer mentoring,57.8,,720,Study completed
+189,male,40,North West,urban,17,Never injected,No problem,Self/family/friends,No,peer mentoring,45.7,176,720,Study completed
+190,male,27,West Midlands,urban,27,Previously injected,No problem,Health services/social care,No,standard of care,44.9,,720,Study completed
+191,female,44,North East,rural,12,Previously injected,No problem,Criminal justice,No,standard of care,,62,90,LTFU
+192,female,43,South East,rural,22,Currently injecting,No problem,Self/family/friends,No,peer mentoring,57.4,59,720,Study completed
+193,male,34,West Midlands,urban,9,Never injected,No problem,Self/family/friends,Yes,peer mentoring,31.3,,720,Study completed
+194,male,25,North West,urban,10,Never injected,Urgent housing problem,Self/family/friends,Yes,peer mentoring,59.2,,720,Study completed
+195,male,37,South East,urban,12,Never injected,No problem,Self/family/friends,No,standard of care,,,180,LTFU
+196,male,40,North East,rural,11,Never injected,No problem,Criminal justice,Yes,peer mentoring,47.8,,720,Study completed
+197,male,28,North East,urban,1,Currently injecting,Housing problem,Criminal justice,No,standard of care,,137,180,LTFU
+198,male,41,North West,rural,1,Never injected,No problem,Criminal justice,No,peer mentoring,,,90,LTFU
+199,male,42,West Midlands,urban,1,Previously injected,No problem,Criminal justice,No,standard of care,24.9,193,720,Study completed
+200,male,38,South East,urban,9,Previously injected,No problem,Health services/social care,Yes,standard of care,51.7,,720,Study completed
+201,male,22,West Midlands,urban,1,Previously injected,No problem,Criminal justice,No,peer mentoring,9.8,19,360,LTFU
+202,female,44,North East,urban,38,Never injected,No problem,Self/family/friends,No,peer mentoring,30.7,,720,Study completed
+203,male,43,West Midlands,rural,6,Never injected,No problem,Self/family/friends,Yes,peer mentoring,73.1,40,720,Study completed
+204,male,25,North East,rural,18,Currently injecting,Urgent housing problem,Health services/social care,No,peer mentoring,50.6,,720,Study completed
+205,female,43,South East,rural,48,Previously injected,Urgent housing problem,Health services/social care,Yes,standard of care,53.4,43,720,Study completed
+206,female,64,North West,rural,4,Never injected,No problem,Health services/social care,No,peer mentoring,,,270,LTFU
+207,female,58,South East,urban,7,Never injected,Housing problem,Self/family/friends,No,standard of care,,,0,LTFU
+208,male,54,North West,rural,6,Never injected,No problem,Self/family/friends,Yes,peer mentoring,,,270,LTFU
+209,female,50,West Midlands,rural,62,Never injected,No problem,Self/family/friends,No,standard of care,34.6,,720,Study completed
+210,male,31,North West,urban,6,Never injected,Housing problem,Criminal justice,Yes,peer mentoring,40.7,39,720,Study completed
+211,male,34,North East,rural,25,Previously injected,Urgent housing problem,Criminal justice,Yes,peer mentoring,62.3,50,720,Study completed
+212,male,27,North East,urban,10,Never injected,Urgent housing problem,Health services/social care,Yes,peer mentoring,48,,630,LTFU
+213,male,32,North East,urban,6,Previously injected,Urgent housing problem,Self/family/friends,No,standard of care,,,0,LTFU
+214,female,45,North West,rural,0,Never injected,No problem,Self/family/friends,Yes,peer mentoring,45,145,720,Study completed
+215,male,34,North West,rural,4,Never injected,No problem,Self/family/friends,Yes,standard of care,60.7,,720,Study completed
+216,male,30,North West,rural,18,Currently injecting,No problem,Criminal justice,No,peer mentoring,39.1,549,720,Study completed
+217,male,38,West Midlands,urban,52,Never injected,No problem,Self/family/friends,Yes,peer mentoring,30.5,50,360,LTFU
+218,male,47,North East,urban,11,Currently injecting,Urgent housing problem,Criminal justice,Yes,peer mentoring,50,,360,LTFU
+219,female,45,South East,urban,12,Previously injected,Urgent housing problem,Criminal justice,Yes,standard of care,50.2,108,720,Study completed
+220,male,46,West Midlands,rural,4,Never injected,No problem,Self/family/friends,Yes,peer mentoring,64.9,65,720,Study completed
+221,female,29,South East,urban,36,Never injected,Housing problem,Health services/social care,No,standard of care,,,90,LTFU
+222,male,30,North West,urban,26,Never injected,No problem,Health services/social care,No,peer mentoring,35,,720,Study completed
+223,male,39,West Midlands,rural,4,Never injected,No problem,Self/family/friends,Yes,peer mentoring,68.5,,720,Study completed
+224,female,80,North East,rural,2,Never injected,No problem,Health services/social care,Yes,peer mentoring,56.3,73,720,Study completed
+225,male,38,South East,urban,3,Never injected,Urgent housing problem,Health services/social care,No,peer mentoring,31.4,,720,Study completed
+226,male,47,West Midlands,rural,2,Never injected,Housing problem,Self/family/friends,Yes,standard of care,65.2,,720,Study completed
+227,male,39,South East,rural,8,Never injected,No problem,Self/family/friends,Yes,peer mentoring,69.7,,720,Study completed
+228,male,37,South East,urban,9,Never injected,Housing problem,Health services/social care,Yes,peer mentoring,39.4,9,720,Study completed
+229,female,67,South East,urban,18,Currently injecting,Urgent housing problem,Self/family/friends,Yes,peer mentoring,35.4,8,720,Study completed
+230,male,39,North West,urban,4,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,72.8,,720,Study completed
+231,male,31,North West,urban,11,Currently injecting,No problem,Health services/social care,Yes,standard of care,43.1,13,720,Study completed
+232,male,46,South East,rural,24,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,72.3,,630,LTFU
+233,male,31,North West,urban,3,Never injected,No problem,Self/family/friends,Yes,peer mentoring,43.3,25,720,Study completed
+234,female,52,West Midlands,urban,8,Previously injected,No problem,Self/family/friends,Yes,standard of care,33.8,67,720,Study completed
+235,female,56,South East,urban,6,Never injected,Housing problem,Self/family/friends,No,standard of care,,,0,LTFU
+236,male,44,North East,urban,3,Currently injecting,No problem,Self/family/friends,No,standard of care,,,0,LTFU
+237,female,60,North East,urban,2,Currently injecting,Urgent housing problem,Self/family/friends,No,standard of care,35.7,240,720,Study completed
+238,male,30,North West,urban,25,Currently injecting,Housing problem,Self/family/friends,No,standard of care,,,90,LTFU
+239,female,33,North West,urban,3,Previously injected,No problem,Criminal justice,Yes,peer mentoring,41.6,,720,Study completed
+240,male,25,West Midlands,urban,11,Previously injected,No problem,Self/family/friends,Yes,standard of care,63.2,325,720,Study completed
+241,male,27,North West,urban,24,Previously injected,No problem,Self/family/friends,No,standard of care,33.3,21,720,Study completed
+242,female,53,West Midlands,rural,9,Currently injecting,No problem,Self/family/friends,Yes,peer mentoring,50.3,,720,Study completed
+243,male,40,West Midlands,urban,22,Never injected,No problem,Self/family/friends,Yes,standard of care,62.4,347,720,Study completed
+244,male,36,North West,urban,60,Previously injected,No problem,Self/family/friends,No,peer mentoring,37,,720,Study completed
+245,male,40,North East,rural,12,Currently injecting,No problem,Criminal justice,No,peer mentoring,,,0,LTFU
+246,male,45,South East,urban,0,Never injected,No problem,Self/family/friends,No,peer mentoring,45.1,,630,LTFU
+247,male,40,West Midlands,urban,4,Previously injected,No problem,Self/family/friends,Yes,standard of care,67.9,75,720,Study completed
+248,female,51,West Midlands,urban,1,Previously injected,Housing problem,Criminal justice,No,standard of care,27.2,485,720,Study completed
+249,male,41,North East,rural,72,Currently injecting,No problem,Criminal justice,No,peer mentoring,48.3,,720,Study completed
+250,male,25,South East,rural,11,Never injected,No problem,Self/family/friends,No,peer mentoring,30.4,,720,Study completed
+251,female,47,North East,urban,48,Never injected,Urgent housing problem,Health services/social care,Yes,standard of care,38.8,665,720,Study completed
+252,male,25,North East,urban,0,Never injected,Housing problem,Criminal justice,Yes,peer mentoring,47.7,528,720,Study completed
+253,male,31,West Midlands,urban,12,Previously injected,No problem,Health services/social care,Yes,peer mentoring,,68,90,LTFU
+254,female,38,North West,urban,2,Never injected,No problem,Criminal justice,Yes,standard of care,47.3,,720,Study completed
+255,male,45,North East,rural,3,Currently injecting,Housing problem,Health services/social care,Yes,standard of care,68.2,33,720,Study completed
+256,female,33,South East,urban,33,Never injected,Urgent housing problem,Self/family/friends,No,standard of care,,,0,LTFU
+257,male,32,West Midlands,urban,29,Never injected,No problem,Criminal justice,No,peer mentoring,28.7,,720,Study completed
+258,male,51,South East,urban,3,Previously injected,No problem,Health services/social care,No,peer mentoring,31.3,108,720,Study completed
+259,female,34,South East,rural,45,Currently injecting,Urgent housing problem,Health services/social care,Yes,standard of care,44.5,561,720,Study completed
+260,male,34,South East,rural,12,Never injected,No problem,Health services/social care,No,standard of care,33.2,493,720,Study completed
+261,male,30,South East,rural,0,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,39.6,52,720,Study completed
+262,male,38,West Midlands,urban,6,Currently injecting,No problem,Self/family/friends,Yes,peer mentoring,41.6,,720,Study completed
+263,female,58,South East,urban,80,Never injected,Urgent housing problem,Self/family/friends,Yes,standard of care,38.5,,720,Study completed
+264,male,30,South East,urban,0,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,66.3,77,720,Study completed
+265,male,37,South East,urban,3,Never injected,Urgent housing problem,Self/family/friends,No,standard of care,,,0,LTFU
+266,female,44,South East,urban,2,Previously injected,No problem,Self/family/friends,No,peer mentoring,60.4,,720,Study completed
+267,female,49,North East,rural,1,Never injected,No problem,Self/family/friends,No,peer mentoring,53.7,,720,Study completed
+268,female,46,North West,rural,2,Previously injected,No problem,Self/family/friends,No,peer mentoring,,,0,LTFU
+269,male,48,South East,urban,14,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,83.1,,720,Study completed
+270,female,39,South East,rural,9,Currently injecting,No problem,Criminal justice,Yes,standard of care,47,,720,Study completed
+271,female,59,West Midlands,urban,6,Previously injected,Housing problem,Criminal justice,Yes,standard of care,39.8,,720,Study completed
+272,male,53,North East,urban,3,Never injected,No problem,Self/family/friends,No,peer mentoring,41.7,14,720,Study completed
+273,male,33,North East,urban,7,Never injected,No problem,Criminal justice,Yes,peer mentoring,,,90,LTFU
+274,male,32,North East,urban,7,Previously injected,Urgent housing problem,Health services/social care,Yes,peer mentoring,65.4,,720,Study completed
+275,female,42,West Midlands,urban,14,Never injected,No problem,Self/family/friends,Yes,peer mentoring,71.3,,720,Study completed
+276,male,39,South East,urban,0,Never injected,Housing problem,Self/family/friends,Yes,standard of care,56.1,,720,Study completed
+277,male,27,South East,rural,20,Currently injecting,No problem,Self/family/friends,No,standard of care,53.4,47,720,Study completed
+278,female,46,West Midlands,urban,1,Never injected,No problem,Self/family/friends,Yes,peer mentoring,55.9,,720,Study completed
+279,male,48,North East,rural,7,Previously injected,Urgent housing problem,Criminal justice,Yes,standard of care,48.9,,720,Study completed
+280,female,61,North West,urban,29,Previously injected,No problem,Self/family/friends,No,standard of care,,,90,LTFU
+281,male,27,North West,urban,18,Never injected,No problem,Criminal justice,No,peer mentoring,17.6,500,720,Study completed
+282,male,35,North East,rural,14,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,54.7,,720,Study completed
+283,male,37,South East,urban,35,Previously injected,No problem,Self/family/friends,No,standard of care,46.8,29,720,Study completed
+284,female,38,West Midlands,urban,10,Previously injected,No problem,Self/family/friends,No,standard of care,35.3,,720,Study completed
+285,female,36,West Midlands,rural,48,Previously injected,Housing problem,Criminal justice,No,peer mentoring,37,203,720,Study completed
+286,male,23,South East,urban,8,Previously injected,No problem,Self/family/friends,No,peer mentoring,36.2,33,540,LTFU
+287,male,27,West Midlands,urban,19,Never injected,No problem,Self/family/friends,Yes,standard of care,54.4,,720,Study completed
+288,male,32,West Midlands,urban,16,Never injected,No problem,Self/family/friends,Yes,peer mentoring,51.3,116,720,Study completed
+289,male,42,North West,urban,20,Previously injected,No problem,Self/family/friends,No,standard of care,36.6,,450,LTFU
+290,female,42,North East,urban,5,Currently injecting,Housing problem,Health services/social care,Yes,peer mentoring,60.7,,720,Study completed
+291,male,45,North West,urban,12,Never injected,No problem,Self/family/friends,Yes,peer mentoring,68.5,99,720,Study completed
+292,female,38,North West,rural,22,Previously injected,No problem,Self/family/friends,Yes,standard of care,51.9,14,720,Study completed
+293,male,34,South East,urban,5,Previously injected,Housing problem,Self/family/friends,No,standard of care,30.5,,720,Study completed
+294,female,37,West Midlands,urban,4,Never injected,Urgent housing problem,Health services/social care,Yes,standard of care,37.3,,720,Study completed
+295,male,57,West Midlands,rural,18,Previously injected,No problem,Health services/social care,No,standard of care,25.9,337,720,Study completed
+296,female,40,North West,rural,1,Previously injected,No problem,Self/family/friends,No,standard of care,29.4,,360,LTFU
+297,male,29,West Midlands,urban,22,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,46.1,,540,LTFU
+298,male,28,North East,urban,1,Currently injecting,No problem,Self/family/friends,Yes,standard of care,50.9,418,720,Study completed
+299,male,36,South East,urban,3,Never injected,Urgent housing problem,Self/family/friends,Yes,standard of care,49.8,63,720,Study completed
+300,male,27,North West,urban,41,Never injected,Housing problem,Criminal justice,Yes,standard of care,37,,720,Study completed
+301,male,33,North West,urban,2,Currently injecting,No problem,Criminal justice,Yes,standard of care,,,270,LTFU
+302,male,36,West Midlands,rural,15,Currently injecting,No problem,Criminal justice,No,peer mentoring,,,0,LTFU
+303,female,44,West Midlands,urban,12,Previously injected,Housing problem,Self/family/friends,No,peer mentoring,36.3,414,720,Study completed
+304,male,35,West Midlands,urban,6,Previously injected,No problem,Health services/social care,No,standard of care,,,180,LTFU
+305,male,26,North East,urban,0,Previously injected,Other,Self/family/friends,No,standard of care,14.5,14,360,LTFU
+306,female,48,North East,urban,12,Previously injected,Urgent housing problem,Self/family/friends,No,standard of care,20.8,,720,Study completed
+307,female,56,North West,rural,11,Previously injected,No problem,Self/family/friends,No,peer mentoring,30.2,,720,Study completed
+308,female,71,West Midlands,rural,24,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,46.4,,720,Study completed
+309,male,35,West Midlands,urban,4,Previously injected,Housing problem,Health services/social care,No,standard of care,37.5,,540,LTFU
+310,male,52,South East,urban,4,Never injected,Urgent housing problem,Health services/social care,Yes,standard of care,57.8,98,450,LTFU
+311,female,51,North West,urban,1,Never injected,No problem,Self/family/friends,No,standard of care,47.3,,720,Study completed
+312,male,34,South East,rural,8,Currently injecting,Urgent housing problem,Criminal justice,No,standard of care,17,14,630,LTFU
+313,male,34,North East,urban,4,Never injected,No problem,Self/family/friends,Yes,peer mentoring,38.2,21,720,Study completed
+314,female,43,North East,urban,7,Previously injected,No problem,Criminal justice,Yes,standard of care,45,,720,Study completed
+315,male,37,North West,urban,3,Currently injecting,Housing problem,Health services/social care,Yes,peer mentoring,50.4,,720,Study completed
+316,male,38,West Midlands,rural,6,Never injected,No problem,Self/family/friends,Yes,peer mentoring,74.6,,720,Study completed
+317,female,52,North East,rural,9,Never injected,No problem,Self/family/friends,Yes,standard of care,,,180,LTFU
+318,female,41,West Midlands,urban,77,Previously injected,No problem,Criminal justice,No,peer mentoring,34.6,,450,LTFU
+319,female,44,North West,urban,6,Currently injecting,No problem,Self/family/friends,No,peer mentoring,32.3,8,360,LTFU
+320,male,42,West Midlands,urban,3,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,56.9,120,720,Study completed
+321,female,59,South East,urban,36,Previously injected,Housing problem,Self/family/friends,No,peer mentoring,27.5,450,720,Study completed
+322,male,39,North West,urban,4,Previously injected,Housing problem,Health services/social care,No,peer mentoring,36.4,,450,LTFU
+323,male,33,North East,rural,24,Never injected,No problem,Self/family/friends,Yes,peer mentoring,57.3,99,720,Study completed
+324,male,50,North West,urban,9,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,36.8,,720,Study completed
+325,male,41,South East,urban,6,Never injected,No problem,Self/family/friends,Yes,peer mentoring,59.5,,720,Study completed
+326,male,44,North West,urban,12,Previously injected,No problem,Criminal justice,Yes,peer mentoring,43.3,,720,Study completed
+327,female,47,West Midlands,urban,36,Previously injected,Urgent housing problem,Self/family/friends,No,peer mentoring,21.5,49,720,Study completed
+328,male,30,North East,urban,19,Currently injecting,No problem,Criminal justice,No,standard of care,17.6,44,720,Study completed
+329,male,35,North West,urban,2,Previously injected,Urgent housing problem,Criminal justice,Yes,standard of care,51.4,239,720,Study completed
+330,male,45,West Midlands,rural,15,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,50.8,42,630,LTFU
+331,male,24,North West,urban,72,Previously injected,Housing problem,Self/family/friends,Yes,peer mentoring,,,90,LTFU
+332,male,37,South East,urban,12,Currently injecting,Housing problem,Health services/social care,No,standard of care,17.9,,540,LTFU
+333,male,34,North West,urban,15,Previously injected,No problem,Self/family/friends,No,peer mentoring,53.2,,720,Study completed
+334,male,40,North East,urban,27,Never injected,No problem,Self/family/friends,Yes,standard of care,56.8,,720,Study completed
+335,male,29,South East,rural,3,Currently injecting,No problem,Criminal justice,No,peer mentoring,,,180,LTFU
+336,male,32,West Midlands,urban,3,Never injected,No problem,Health services/social care,Yes,peer mentoring,39.7,239,720,Study completed
+337,male,44,South East,urban,13,Previously injected,Urgent housing problem,Self/family/friends,Yes,peer mentoring,53.4,13,720,Study completed
+338,female,55,West Midlands,urban,27,Previously injected,Urgent housing problem,Criminal justice,Yes,peer mentoring,48.8,712,720,Study completed
+339,male,29,South East,urban,18,Never injected,Urgent housing problem,Self/family/friends,Yes,peer mentoring,53.8,,720,Study completed
+340,male,40,South East,rural,24,Missing,No problem,Criminal justice,Yes,standard of care,45.8,144,720,Study completed
+341,male,41,North East,urban,42,Previously injected,Urgent housing problem,Health services/social care,No,standard of care,36.4,,720,Study completed
+342,female,43,South East,rural,2,Never injected,No problem,Criminal justice,No,peer mentoring,29.6,,720,Study completed
+343,male,38,South East,urban,31,Never injected,No problem,Self/family/friends,Yes,peer mentoring,46.7,,720,Study completed
+344,male,40,North West,urban,24,Never injected,No problem,Self/family/friends,No,standard of care,42,,720,Study completed
+345,male,29,West Midlands,urban,1,Never injected,No problem,Health services/social care,Yes,peer mentoring,50.8,,720,Study completed
+346,male,29,West Midlands,urban,53,Never injected,No problem,Criminal justice,No,standard of care,26.8,,720,Study completed
+347,male,35,North East,urban,4,Previously injected,Urgent housing problem,Criminal justice,Yes,standard of care,52.4,,720,Study completed
+348,male,33,West Midlands,rural,18,Currently injecting,No problem,Criminal justice,No,peer mentoring,42.4,311,720,Study completed
+349,male,40,North West,urban,29,Currently injecting,Urgent housing problem,Criminal justice,No,standard of care,34.6,,360,LTFU
+350,male,45,South East,rural,32,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,58,58,720,Study completed
+351,male,40,North East,urban,23,Previously injected,Urgent housing problem,Self/family/friends,No,standard of care,40.8,82,720,Study completed
+352,male,27,North East,urban,1,Currently injecting,Housing problem,Health services/social care,No,peer mentoring,36.3,,720,Study completed
+353,female,51,South East,urban,15,Never injected,No problem,Health services/social care,Yes,standard of care,46.3,254,720,Study completed
+354,male,41,West Midlands,urban,7,Currently injecting,Housing problem,Self/family/friends,No,peer mentoring,37.6,52,360,LTFU
+355,male,47,North East,urban,2,Previously injected,No problem,Self/family/friends,No,standard of care,39.2,,720,Study completed
+356,female,71,West Midlands,rural,19,Currently injecting,No problem,Self/family/friends,No,standard of care,,,0,LTFU
+357,male,25,North West,urban,7,Never injected,No problem,Self/family/friends,No,peer mentoring,49.9,,720,Study completed
+358,female,32,South East,urban,60,Previously injected,No problem,Criminal justice,Yes,peer mentoring,37,,720,Study completed
+359,female,42,West Midlands,urban,8,Previously injected,No problem,Self/family/friends,No,standard of care,48,114,720,Study completed
+360,female,73,North East,rural,21,Never injected,No problem,Health services/social care,Yes,peer mentoring,47.8,,720,Study completed
+361,male,31,North East,rural,77,Currently injecting,No problem,Self/family/friends,No,peer mentoring,52.9,10,720,Study completed
+362,female,70,North East,urban,47,Never injected,Housing problem,Self/family/friends,Yes,peer mentoring,47.2,,720,Study completed
+363,male,51,West Midlands,rural,15,Never injected,Housing problem,Criminal justice,Yes,standard of care,63.2,160,720,Study completed
+364,male,33,North East,urban,19,Previously injected,No problem,Self/family/friends,No,standard of care,24.5,72,720,Study completed
+365,female,53,North East,urban,33,Previously injected,Urgent housing problem,Criminal justice,Yes,standard of care,41.3,169,720,Study completed
+366,female,46,North East,rural,2,Never injected,Housing problem,Self/family/friends,No,peer mentoring,36.6,276,720,Study completed
+367,male,45,North East,urban,17,Currently injecting,No problem,Self/family/friends,Yes,peer mentoring,58,238,720,Study completed
+368,male,31,North West,urban,18,Currently injecting,Housing problem,Self/family/friends,Yes,standard of care,56.6,665,720,Study completed
+369,male,43,West Midlands,urban,3,Currently injecting,Housing problem,Criminal justice,Yes,standard of care,32.5,,720,Study completed
+370,female,42,North East,urban,12,Never injected,No problem,Criminal justice,Yes,peer mentoring,40.3,19,720,Study completed
+371,female,36,West Midlands,urban,18,Never injected,No problem,Self/family/friends,Yes,standard of care,44.8,,720,Study completed
+372,male,43,North West,urban,4,Currently injecting,No problem,Self/family/friends,No,standard of care,14.7,156,720,Study completed
+373,male,27,West Midlands,urban,8,Currently injecting,No problem,Self/family/friends,No,peer mentoring,36.8,,360,LTFU
+374,male,29,North East,urban,34,Never injected,No problem,Criminal justice,Yes,peer mentoring,29.8,223,720,Study completed
+375,female,76,North East,rural,1,Previously injected,No problem,Self/family/friends,No,peer mentoring,33.1,,720,Study completed
+376,male,24,West Midlands,urban,5,Previously injected,Urgent housing problem,Criminal justice,Yes,peer mentoring,45.4,179,540,LTFU
+377,male,24,South East,urban,5,Never injected,No problem,Self/family/friends,Yes,peer mentoring,50.1,622,720,Study completed
+378,male,43,West Midlands,urban,3,Previously injected,No problem,Criminal justice,No,standard of care,34.1,69,720,Study completed
+379,male,61,West Midlands,urban,12,Never injected,Urgent housing problem,Criminal justice,Yes,standard of care,42,588,720,Study completed
+380,female,69,North West,rural,23,Never injected,No problem,Criminal justice,Yes,standard of care,62.7,30,360,LTFU
+381,male,27,North East,urban,22,Previously injected,Housing problem,Criminal justice,Yes,peer mentoring,35.5,40,720,Study completed
+382,female,50,North West,urban,9,Previously injected,Urgent housing problem,Self/family/friends,No,standard of care,36.8,13,720,Study completed
+383,male,41,North East,rural,10,Currently injecting,Urgent housing problem,Self/family/friends,Yes,peer mentoring,48.2,,720,Study completed
+384,male,27,West Midlands,urban,36,Never injected,No problem,Self/family/friends,Yes,peer mentoring,44.3,,720,Study completed
+385,male,38,North East,urban,2,Currently injecting,Urgent housing problem,Self/family/friends,Yes,peer mentoring,61.5,1,720,Study completed
+386,female,51,South East,urban,36,Previously injected,Housing problem,Self/family/friends,No,standard of care,,,0,LTFU
+387,male,30,West Midlands,urban,12,Currently injecting,Housing problem,Self/family/friends,Yes,standard of care,41.5,330,720,Study completed
+388,male,32,North East,urban,14,Missing,No problem,Self/family/friends,Yes,peer mentoring,41.5,,720,Study completed
+389,male,39,West Midlands,urban,20,Currently injecting,Housing problem,Criminal justice,Yes,standard of care,55.6,,720,Study completed
+390,male,35,North West,urban,1,Currently injecting,No problem,Self/family/friends,Yes,standard of care,32.9,600,720,Study completed
+391,female,57,North West,urban,12,Missing,No problem,Criminal justice,No,standard of care,25,,630,LTFU
+392,female,56,West Midlands,rural,28,Never injected,No problem,Health services/social care,No,standard of care,,,180,LTFU
+393,female,59,North East,urban,6,Never injected,Urgent housing problem,Self/family/friends,Yes,standard of care,46.3,408,720,Study completed
+394,female,54,South East,urban,18,Previously injected,Urgent housing problem,Self/family/friends,Yes,standard of care,48.7,290,450,LTFU
+395,male,36,North East,rural,34,Currently injecting,No problem,Health services/social care,No,peer mentoring,37.8,679,720,Study completed
+396,male,30,West Midlands,rural,13,Never injected,No problem,Self/family/friends,Yes,standard of care,51.7,212,720,Study completed
+397,female,43,West Midlands,urban,72,Never injected,No problem,Criminal justice,Yes,standard of care,42.5,121,720,Study completed
+398,male,34,South East,urban,16,Currently injecting,Housing problem,Criminal justice,No,peer mentoring,27.7,96,720,Study completed
+399,male,46,North West,urban,18,Previously injected,Urgent housing problem,Health services/social care,No,peer mentoring,29.2,5,720,Study completed
+400,male,53,South East,rural,12,Previously injected,No problem,Health services/social care,No,peer mentoring,46,,720,Study completed
+401,male,46,North East,rural,14,Never injected,No problem,Self/family/friends,Yes,standard of care,84.3,604,720,Study completed
+402,male,40,West Midlands,urban,18,Previously injected,No problem,Self/family/friends,Yes,standard of care,44.5,,720,Study completed
+403,female,70,North West,rural,18,Never injected,No problem,Criminal justice,Yes,peer mentoring,54,48,720,Study completed
+404,male,47,West Midlands,rural,2,Previously injected,No problem,Self/family/friends,Yes,standard of care,59.5,8,720,Study completed
+405,male,31,West Midlands,urban,26,Never injected,No problem,Self/family/friends,Yes,peer mentoring,51.5,,720,Study completed
+406,male,30,North West,urban,36,Never injected,Urgent housing problem,Self/family/friends,No,peer mentoring,39.9,156,720,Study completed
+407,female,50,North West,rural,6,Currently injecting,No problem,Health services/social care,Yes,peer mentoring,49.8,,720,Study completed
+408,male,45,North West,urban,37,Never injected,No problem,Self/family/friends,Yes,standard of care,51,183,720,Study completed
+409,male,38,South East,rural,8,Never injected,Urgent housing problem,Health services/social care,No,standard of care,53.2,,720,Study completed
+410,male,42,North West,urban,16,Never injected,No problem,Criminal justice,No,standard of care,34.3,,720,Study completed
+411,female,49,North East,urban,16,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,60.2,,720,Study completed
+412,male,33,West Midlands,urban,4,Never injected,Housing problem,Health services/social care,No,peer mentoring,30,192,720,Study completed
+413,male,32,North East,urban,13,Never injected,Urgent housing problem,Self/family/friends,No,standard of care,41.7,544,720,Study completed
+414,male,30,South East,urban,14,Currently injecting,Urgent housing problem,Self/family/friends,No,standard of care,,,0,LTFU
+415,male,37,North West,rural,12,Never injected,No problem,Self/family/friends,Yes,peer mentoring,69.6,438,720,Study completed
+416,male,30,North East,urban,10,Never injected,No problem,Self/family/friends,No,peer mentoring,50,179,720,Study completed
+417,male,44,North East,urban,34,Never injected,No problem,Self/family/friends,No,peer mentoring,52.2,,720,Study completed
+418,male,36,North East,urban,24,Never injected,No problem,Self/family/friends,Yes,peer mentoring,45.2,,720,Study completed
+419,male,34,North East,rural,37,Previously injected,No problem,Health services/social care,No,standard of care,,,90,LTFU
+420,male,34,North East,urban,15,Previously injected,No problem,Self/family/friends,No,standard of care,44.8,410,720,Study completed
+421,male,34,West Midlands,urban,18,Currently injecting,Urgent housing problem,Health services/social care,No,peer mentoring,58.2,42,720,Study completed
+422,male,48,North East,urban,6,Previously injected,Urgent housing problem,Self/family/friends,No,standard of care,36.9,181,720,Study completed
+423,male,40,South East,urban,8,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,,,180,LTFU
+424,male,51,North East,rural,1,Previously injected,Urgent housing problem,Health services/social care,Yes,peer mentoring,43.3,78,720,Study completed
+425,male,35,North West,rural,2,Never injected,No problem,Self/family/friends,Yes,standard of care,56.4,386,720,Study completed
+426,male,34,North West,urban,6,Currently injecting,Housing problem,Criminal justice,Yes,standard of care,34.8,7,720,Study completed
+427,male,26,South East,urban,5,Currently injecting,Housing problem,Health services/social care,Yes,peer mentoring,46.9,44,720,Study completed
+428,female,45,North East,rural,1,Currently injecting,Housing problem,Criminal justice,No,standard of care,24.6,,720,Study completed
+429,male,35,West Midlands,urban,13,Never injected,No problem,Self/family/friends,No,peer mentoring,,,90,LTFU
+430,male,32,North East,urban,9,Previously injected,Housing problem,Self/family/friends,No,peer mentoring,54.5,442,720,Study completed
+431,male,33,North East,urban,4,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,42.7,,720,Study completed
+432,male,28,North West,urban,12,Never injected,No problem,Self/family/friends,Yes,peer mentoring,51.1,99,720,Study completed
+433,male,38,North West,urban,67,Previously injected,Urgent housing problem,Criminal justice,No,standard of care,38.9,,720,Study completed
+434,male,38,North West,urban,37,Previously injected,Urgent housing problem,Self/family/friends,Yes,peer mentoring,62.5,,720,Study completed
+435,male,40,North East,rural,19,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,25.2,,720,Study completed
+436,male,55,North East,rural,10,Never injected,Housing problem,Self/family/friends,Yes,peer mentoring,55.2,14,720,Study completed
+437,male,26,North West,urban,18,Never injected,Housing problem,Self/family/friends,Yes,peer mentoring,,98,180,LTFU
+438,female,29,South East,urban,7,Previously injected,Housing problem,Self/family/friends,No,peer mentoring,,,0,LTFU
+439,female,43,South East,rural,6,Never injected,Urgent housing problem,Criminal justice,Yes,peer mentoring,44.7,70,540,LTFU
+440,male,36,South East,urban,22,Never injected,No problem,Self/family/friends,Yes,peer mentoring,33,,720,Study completed
+441,male,40,South East,urban,4,Never injected,No problem,Criminal justice,No,standard of care,37.7,,720,Study completed
+442,male,34,North East,urban,33,Currently injecting,No problem,Criminal justice,No,standard of care,5,,720,Study completed
+443,male,43,West Midlands,rural,11,Currently injecting,No problem,Self/family/friends,Yes,peer mentoring,62,25,720,Study completed
+444,male,27,South East,urban,9,Previously injected,Housing problem,Health services/social care,No,standard of care,47.2,,720,Study completed
+445,male,25,South East,urban,56,Previously injected,Urgent housing problem,Criminal justice,Yes,standard of care,33.6,92,720,Study completed
+446,male,39,North East,rural,31,Never injected,No problem,Health services/social care,Yes,standard of care,59.6,61,540,LTFU
+447,male,45,North East,urban,13,Previously injected,No problem,Self/family/friends,Yes,standard of care,60.6,39,720,Study completed
+448,male,27,South East,urban,18,Currently injecting,Urgent housing problem,Health services/social care,No,standard of care,,,0,LTFU
+449,male,29,West Midlands,urban,3,Never injected,No problem,Self/family/friends,No,peer mentoring,,,0,LTFU
+450,male,32,North East,urban,20,Previously injected,No problem,Self/family/friends,No,peer mentoring,37.1,48,720,Study completed
+451,male,30,North West,rural,12,Previously injected,Housing problem,Health services/social care,Yes,standard of care,,,90,LTFU
+452,male,30,South East,urban,8,Currently injecting,No problem,Self/family/friends,Yes,peer mentoring,57.4,,720,Study completed
+453,male,35,South East,urban,18,Previously injected,No problem,Self/family/friends,No,peer mentoring,38.1,,540,LTFU
+454,male,26,North West,urban,1,Never injected,No problem,Self/family/friends,Yes,standard of care,48.6,87,540,LTFU
+455,male,24,West Midlands,urban,1,Currently injecting,No problem,Self/family/friends,No,standard of care,47.3,,720,Study completed
+456,female,39,North West,urban,30,Currently injecting,Urgent housing problem,Health services/social care,No,standard of care,,,90,LTFU
+457,male,24,North West,urban,45,Never injected,Urgent housing problem,Self/family/friends,No,standard of care,36.8,,720,Study completed
+458,male,39,North East,urban,33,Currently injecting,No problem,Self/family/friends,Yes,peer mentoring,36.1,,720,Study completed
+459,male,36,South East,urban,0,Never injected,No problem,Self/family/friends,Yes,standard of care,59.5,,720,Study completed
+460,male,28,South East,urban,25,Never injected,No problem,Health services/social care,Yes,peer mentoring,50.5,,720,Study completed
+461,male,38,South East,rural,19,Previously injected,No problem,Self/family/friends,No,standard of care,,,90,LTFU
+462,female,46,North West,urban,4,Never injected,No problem,Self/family/friends,Yes,peer mentoring,54,7,720,Study completed
+463,male,61,North West,urban,72,Never injected,Housing problem,Self/family/friends,No,peer mentoring,,,90,LTFU
+464,female,55,South East,urban,51,Currently injecting,Urgent housing problem,Criminal justice,No,peer mentoring,44.5,41,720,Study completed
+465,male,23,North West,urban,11,Previously injected,No problem,Self/family/friends,No,peer mentoring,56.1,,720,Study completed
+466,male,34,North East,urban,18,Previously injected,No problem,Self/family/friends,Yes,standard of care,45.7,8,720,Study completed
+467,male,38,North West,urban,10,Never injected,Urgent housing problem,Health services/social care,Yes,standard of care,47.1,,720,Study completed
+468,male,44,West Midlands,urban,28,Currently injecting,Housing problem,Self/family/friends,No,standard of care,55.2,389,720,Study completed
+469,male,48,North West,urban,88,Currently injecting,No problem,Self/family/friends,No,peer mentoring,,,0,LTFU
+470,male,28,North West,urban,24,Never injected,Urgent housing problem,Criminal justice,Yes,peer mentoring,39.9,,720,Study completed
+471,male,37,South East,urban,19,Never injected,Urgent housing problem,Self/family/friends,No,peer mentoring,34.9,,630,LTFU
+472,male,28,South East,urban,48,Never injected,Urgent housing problem,Self/family/friends,Yes,standard of care,48.6,214,720,Study completed
+473,female,52,North West,rural,3,Currently injecting,No problem,Self/family/friends,No,standard of care,44.3,181,720,Study completed
+474,female,50,North East,urban,5,Never injected,No problem,Self/family/friends,Yes,standard of care,,,0,LTFU
+475,male,47,North West,rural,5,Previously injected,No problem,Criminal justice,Yes,standard of care,44.5,44,720,Study completed
+476,male,25,North West,urban,24,Currently injecting,No problem,Self/family/friends,Yes,peer mentoring,51.5,96,540,LTFU
+477,male,34,North East,urban,3,Never injected,Urgent housing problem,Self/family/friends,Yes,standard of care,46.6,306,720,Study completed
+478,male,28,South East,urban,0,Previously injected,No problem,Criminal justice,Yes,standard of care,55.2,114,720,Study completed
+479,male,47,North East,urban,1,Never injected,No problem,Self/family/friends,Yes,standard of care,,68,90,LTFU
+480,male,43,North West,urban,60,Never injected,No problem,Self/family/friends,No,standard of care,30.5,452,720,Study completed
+481,male,37,South East,urban,1,Previously injected,No problem,Self/family/friends,Yes,standard of care,44.8,,720,Study completed
+482,male,36,West Midlands,urban,55,Never injected,No problem,Health services/social care,Yes,standard of care,,,90,LTFU
+483,male,50,South East,urban,4,Never injected,Housing problem,Self/family/friends,Yes,peer mentoring,41.7,282,540,LTFU
+484,male,27,North West,rural,10,Previously injected,No problem,Health services/social care,No,peer mentoring,,,270,LTFU
+485,female,53,North East,rural,6,Previously injected,No problem,Self/family/friends,Yes,standard of care,50.7,456,720,Study completed
+486,female,40,North East,rural,18,Previously injected,Urgent housing problem,Health services/social care,Yes,peer mentoring,43.5,404,720,Study completed
+487,male,29,North East,urban,1,Never injected,No problem,Criminal justice,Yes,standard of care,47.2,,720,Study completed
+488,male,37,North East,rural,1,Previously injected,Urgent housing problem,Health services/social care,No,standard of care,48.4,,360,LTFU
+489,male,29,West Midlands,urban,0,Never injected,No problem,Self/family/friends,Yes,standard of care,55.3,574,720,Study completed
+490,male,49,North West,rural,12,Never injected,No problem,Criminal justice,Yes,peer mentoring,62.3,,720,Study completed
+491,male,31,North East,rural,26,Currently injecting,No problem,Criminal justice,No,standard of care,37.2,289,720,Study completed
+492,female,34,South East,urban,19,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,45.5,36,720,Study completed
+493,male,36,North West,urban,4,Never injected,No problem,Self/family/friends,Yes,standard of care,46.7,163,720,Study completed
+494,male,34,North West,urban,11,Never injected,No problem,Self/family/friends,Yes,peer mentoring,42.4,625,720,Study completed
+495,male,30,South East,urban,18,Previously injected,No problem,Health services/social care,Yes,standard of care,31.7,90,720,Study completed
+496,male,41,West Midlands,rural,14,Currently injecting,No problem,Health services/social care,No,peer mentoring,,14,270,LTFU
+497,male,36,South East,urban,39,Currently injecting,Urgent housing problem,Health services/social care,No,peer mentoring,27.9,,720,Study completed
+498,female,43,North East,urban,5,Currently injecting,Urgent housing problem,Self/family/friends,Yes,standard of care,54.7,266,720,Study completed
+499,male,47,North East,urban,12,Currently injecting,Other,Self/family/friends,No,peer mentoring,35.5,29,720,Study completed
+500,male,38,North East,urban,1,Previously injected,No problem,Criminal justice,Yes,peer mentoring,32.3,78,720,Study completed
+501,male,34,North East,rural,1,Previously injected,Urgent housing problem,Self/family/friends,Yes,peer mentoring,,111,180,LTFU
+502,male,47,North East,urban,33,Never injected,No problem,Health services/social care,Yes,peer mentoring,61.2,,720,Study completed
+503,male,48,North East,urban,5,Currently injecting,No problem,Self/family/friends,No,peer mentoring,55.9,,450,LTFU
+504,female,47,North West,rural,3,Never injected,No problem,Self/family/friends,Yes,peer mentoring,56.4,,720,Study completed
+505,male,41,South East,urban,36,Previously injected,Housing problem,Self/family/friends,No,standard of care,45.3,38,720,Study completed
+506,male,39,West Midlands,rural,21,Never injected,No problem,Self/family/friends,Yes,standard of care,72.5,84,720,Study completed
+507,male,41,South East,rural,6,Currently injecting,No problem,Self/family/friends,No,peer mentoring,,,0,LTFU
+508,female,41,West Midlands,rural,0,Previously injected,Housing problem,Self/family/friends,Yes,standard of care,49,,720,Study completed
+509,male,38,North West,urban,6,Currently injecting,No problem,Self/family/friends,No,standard of care,39.8,,450,LTFU
+510,male,33,North East,urban,4,Never injected,No problem,Self/family/friends,Yes,peer mentoring,,,90,LTFU
+511,female,59,South East,urban,46,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,47.3,,720,Study completed
+512,female,45,North East,rural,3,Never injected,No problem,Criminal justice,No,standard of care,,43,180,LTFU
+513,male,44,South East,rural,18,Previously injected,No problem,Self/family/friends,No,standard of care,53.7,,720,Study completed
+514,female,51,North West,rural,9,Missing,No problem,Self/family/friends,Yes,peer mentoring,,70,270,LTFU
+515,male,27,South East,urban,6,Never injected,No problem,Criminal justice,Yes,standard of care,35.8,,720,Study completed
+516,female,40,North West,urban,34,Never injected,No problem,Self/family/friends,Yes,standard of care,45.2,289,720,Study completed
+517,male,37,South East,rural,18,Previously injected,Urgent housing problem,Self/family/friends,No,peer mentoring,50.3,,720,Study completed
+518,male,36,North East,rural,31,Currently injecting,No problem,Health services/social care,Yes,peer mentoring,,,0,LTFU
+519,male,41,West Midlands,urban,18,Never injected,No problem,Health services/social care,Yes,standard of care,45.9,522,720,Study completed
+520,female,53,South East,urban,8,Never injected,No problem,Self/family/friends,No,standard of care,52.4,,540,LTFU
+521,male,47,West Midlands,urban,15,Currently injecting,Urgent housing problem,Self/family/friends,Yes,peer mentoring,55.4,,720,Study completed
+522,female,45,South East,rural,12,Never injected,No problem,Criminal justice,Yes,standard of care,45,,720,Study completed
+523,male,29,West Midlands,urban,5,Currently injecting,Housing problem,Criminal justice,Yes,standard of care,50.2,16,720,Study completed
+524,male,34,North East,urban,18,Never injected,No problem,Health services/social care,Yes,standard of care,64.8,87,720,Study completed
+525,male,40,North East,urban,1,Currently injecting,Urgent housing problem,Criminal justice,Yes,standard of care,41.6,514,720,Study completed
+526,male,39,West Midlands,urban,7,Never injected,Housing problem,Self/family/friends,Yes,standard of care,54,32,720,Study completed
+527,male,37,West Midlands,urban,28,Currently injecting,Housing problem,Self/family/friends,No,peer mentoring,,,0,LTFU
+528,male,38,West Midlands,rural,18,Currently injecting,Urgent housing problem,Self/family/friends,No,standard of care,,9,270,LTFU
+529,male,41,North East,urban,4,Never injected,Housing problem,Health services/social care,Yes,peer mentoring,,,90,LTFU
+530,male,31,North West,rural,72,Previously injected,Urgent housing problem,Health services/social care,Yes,standard of care,48,,720,Study completed
+531,male,32,West Midlands,rural,18,Currently injecting,No problem,Criminal justice,Yes,standard of care,48,352,720,Study completed
+532,male,35,North East,urban,18,Previously injected,Housing problem,Criminal justice,No,peer mentoring,,,0,LTFU
+533,male,43,West Midlands,urban,3,Previously injected,Urgent housing problem,Health services/social care,No,standard of care,,,0,LTFU
+534,male,35,North West,urban,48,Previously injected,No problem,Self/family/friends,No,standard of care,,,0,LTFU
+535,male,31,North West,urban,25,Currently injecting,No problem,Criminal justice,Yes,standard of care,61.1,8,720,Study completed
+536,male,68,South East,urban,1,Never injected,No problem,Criminal justice,No,standard of care,31.5,,720,Study completed
+537,male,27,North East,urban,10,Never injected,Urgent housing problem,Self/family/friends,Yes,peer mentoring,47.3,,720,Study completed
+538,male,35,South East,urban,39,Never injected,No problem,Self/family/friends,No,peer mentoring,13.8,,720,Study completed
+539,female,56,North West,urban,18,Never injected,No problem,Self/family/friends,Yes,peer mentoring,,159,180,LTFU
+540,female,45,South East,urban,13,Previously injected,Housing problem,Criminal justice,Yes,standard of care,37.9,24,720,Study completed
+541,male,53,West Midlands,urban,22,Never injected,Urgent housing problem,Self/family/friends,Yes,peer mentoring,57.3,227,720,Study completed
+542,male,36,South East,urban,48,Never injected,No problem,Self/family/friends,Yes,standard of care,40.3,53,720,Study completed
+543,female,50,South East,urban,38,Never injected,No problem,Criminal justice,Yes,peer mentoring,,82,90,LTFU
+544,male,31,South East,urban,22,Never injected,Housing problem,Self/family/friends,Yes,peer mentoring,48.9,,720,Study completed
+545,male,52,North East,urban,7,Previously injected,No problem,Self/family/friends,Yes,standard of care,56.9,243,720,Study completed
+546,male,27,West Midlands,urban,72,Never injected,No problem,Self/family/friends,Yes,standard of care,49.1,106,720,Study completed
+547,male,33,South East,urban,26,Previously injected,Housing problem,Self/family/friends,No,standard of care,,,0,LTFU
+548,male,34,North West,urban,14,Previously injected,No problem,Self/family/friends,Yes,standard of care,57.6,,720,Study completed
+549,male,39,West Midlands,urban,17,Previously injected,Urgent housing problem,Criminal justice,No,peer mentoring,31.4,226,720,Study completed
+550,male,34,West Midlands,urban,9,Never injected,No problem,Self/family/friends,Yes,standard of care,80,289,720,Study completed
+551,male,47,North West,urban,16,Never injected,No problem,Self/family/friends,No,standard of care,,38,180,LTFU
+552,male,30,North East,rural,6,Previously injected,Urgent housing problem,Health services/social care,Yes,standard of care,71.1,44,720,Study completed
+553,female,45,South East,rural,16,Never injected,No problem,Self/family/friends,Yes,peer mentoring,64.6,8,720,Study completed
+554,male,32,North West,rural,6,Currently injecting,Housing problem,Criminal justice,Yes,standard of care,51.1,,720,Study completed
+555,male,35,North West,urban,3,Previously injected,Urgent housing problem,Health services/social care,No,peer mentoring,,,0,LTFU
+556,male,32,North West,urban,26,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,51,,720,Study completed
+557,female,62,North East,urban,3,Previously injected,No problem,Criminal justice,Yes,standard of care,28.6,,720,Study completed
+558,male,39,West Midlands,rural,14,Currently injecting,No problem,Self/family/friends,Yes,peer mentoring,45.4,,720,Study completed
+559,female,44,West Midlands,urban,12,Currently injecting,No problem,Self/family/friends,No,standard of care,,130,270,LTFU
+560,male,27,South East,urban,29,Never injected,Housing problem,Health services/social care,Yes,peer mentoring,40.1,211,720,Study completed
+561,male,26,South East,urban,63,Previously injected,Urgent housing problem,Health services/social care,Yes,standard of care,52.9,,720,Study completed
+562,male,26,North East,urban,3,Never injected,No problem,Self/family/friends,Yes,standard of care,53.8,,720,Study completed
+563,male,48,North East,urban,22,Missing,Housing problem,Criminal justice,No,peer mentoring,28.4,,720,Study completed
+564,male,29,West Midlands,urban,2,Never injected,Other,Health services/social care,Yes,peer mentoring,54.5,,720,Study completed
+565,female,81,South East,rural,8,Never injected,No problem,Self/family/friends,No,peer mentoring,21.7,,720,Study completed
+566,male,33,North West,urban,3,Missing,No problem,Self/family/friends,No,peer mentoring,42.9,,720,Study completed
+567,male,34,South East,urban,24,Previously injected,Housing problem,Self/family/friends,Yes,peer mentoring,31,,720,Study completed
+568,male,32,West Midlands,urban,9,Previously injected,Urgent housing problem,Self/family/friends,No,standard of care,43.4,,720,Study completed
+569,male,34,North West,urban,11,Missing,No problem,Self/family/friends,No,peer mentoring,,,90,LTFU
+570,male,35,North West,rural,10,Never injected,No problem,Self/family/friends,Yes,peer mentoring,61.6,,720,Study completed
+571,male,37,West Midlands,urban,5,Previously injected,Urgent housing problem,Self/family/friends,No,peer mentoring,41.7,34,720,Study completed
+572,male,47,North East,urban,1,Missing,No problem,Health services/social care,Yes,peer mentoring,59.9,,720,Study completed
+573,male,33,North West,urban,17,Previously injected,No problem,Criminal justice,Yes,peer mentoring,40.9,205,720,Study completed
+574,female,73,West Midlands,urban,48,Never injected,No problem,Criminal justice,Yes,peer mentoring,39.3,,720,Study completed
+575,female,58,North West,urban,28,Never injected,No problem,Criminal justice,Yes,peer mentoring,52.4,,720,Study completed
+576,female,70,West Midlands,rural,39,Currently injecting,No problem,Self/family/friends,No,standard of care,25.5,46,720,Study completed
+577,male,41,West Midlands,urban,2,Never injected,Housing problem,Self/family/friends,Yes,peer mentoring,62.5,,450,LTFU
+578,male,42,South East,urban,13,Never injected,No problem,Self/family/friends,Yes,standard of care,58.3,,720,Study completed
+579,female,43,West Midlands,rural,15,Currently injecting,No problem,Criminal justice,No,standard of care,35.1,4,720,Study completed
+580,male,31,West Midlands,urban,8,Currently injecting,Urgent housing problem,Criminal justice,No,standard of care,,,90,LTFU
+581,female,42,North West,rural,36,Never injected,No problem,Self/family/friends,No,peer mentoring,,,90,LTFU
+582,female,60,West Midlands,rural,5,Currently injecting,Housing problem,Self/family/friends,Yes,peer mentoring,55.6,147,720,Study completed
+583,female,44,North East,urban,16,Never injected,Other,Self/family/friends,Yes,standard of care,37.7,,720,Study completed
+584,male,33,West Midlands,urban,22,Currently injecting,Housing problem,Self/family/friends,No,peer mentoring,,,180,LTFU
+585,male,32,South East,urban,17,Currently injecting,Housing problem,Self/family/friends,No,peer mentoring,60.7,,540,LTFU
+586,male,39,West Midlands,urban,32,Never injected,No problem,Self/family/friends,No,peer mentoring,,,180,LTFU
+587,female,55,North East,urban,11,Currently injecting,No problem,Self/family/friends,No,peer mentoring,46.1,299,720,Study completed
+588,male,23,North West,urban,7,Never injected,No problem,Self/family/friends,Yes,standard of care,39.1,,720,Study completed
+589,male,28,North West,urban,29,Never injected,Housing problem,Criminal justice,Yes,standard of care,55.7,251,720,Study completed
+590,female,48,West Midlands,urban,6,Never injected,Urgent housing problem,Self/family/friends,Yes,standard of care,51.8,58,720,Study completed
+591,male,49,North West,urban,29,Never injected,No problem,Health services/social care,No,peer mentoring,30.5,,720,Study completed
+592,male,42,North West,urban,20,Previously injected,No problem,Criminal justice,Yes,peer mentoring,30.7,251,720,Study completed
+593,male,42,North East,rural,16,Previously injected,No problem,Self/family/friends,No,peer mentoring,60.9,,720,Study completed
+594,female,43,North East,urban,11,Never injected,Urgent housing problem,Self/family/friends,Yes,peer mentoring,46.8,,720,Study completed
+595,male,25,South East,urban,4,Previously injected,Urgent housing problem,Criminal justice,No,standard of care,19.8,238,720,Study completed
+596,male,38,South East,urban,20,Currently injecting,No problem,Health services/social care,Yes,peer mentoring,59,49,720,Study completed
+597,male,29,North East,rural,17,Currently injecting,Housing problem,Criminal justice,No,standard of care,61.9,,450,LTFU
+598,male,51,West Midlands,rural,24,Currently injecting,Housing problem,Self/family/friends,No,standard of care,55.6,,720,Study completed
+599,male,33,South East,urban,40,Missing,No problem,Self/family/friends,No,standard of care,48.5,,720,Study completed
+600,male,32,North West,urban,2,Currently injecting,No problem,Criminal justice,No,peer mentoring,36.6,,720,Study completed
+601,female,47,West Midlands,urban,71,Previously injected,No problem,Criminal justice,No,peer mentoring,19.9,141,720,Study completed
+602,male,39,South East,urban,12,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,58.6,,720,Study completed
+603,female,36,North West,rural,6,Never injected,No problem,Self/family/friends,Yes,standard of care,55.3,,360,LTFU
+604,male,36,South East,urban,24,Never injected,No problem,Criminal justice,No,standard of care,23.2,492,720,Study completed
+605,male,29,South East,urban,29,Currently injecting,No problem,Criminal justice,No,standard of care,22.7,,720,Study completed
+606,male,25,North East,urban,14,Never injected,No problem,Criminal justice,Yes,standard of care,45,139,720,Study completed
+607,male,44,West Midlands,urban,9,Never injected,No problem,Criminal justice,Yes,standard of care,25.4,,630,LTFU
+608,male,29,North East,urban,1,Never injected,No problem,Self/family/friends,Yes,standard of care,38.3,124,720,Study completed
+609,male,43,South East,urban,60,Never injected,No problem,Health services/social care,No,standard of care,25.9,2,720,Study completed
+610,male,36,North East,rural,18,Previously injected,Housing problem,Criminal justice,No,standard of care,60.1,113,720,Study completed
+611,male,32,North West,rural,32,Previously injected,Urgent housing problem,Health services/social care,Yes,standard of care,54.3,495,720,Study completed
+612,male,27,South East,urban,41,Never injected,No problem,Self/family/friends,Yes,standard of care,40.1,,720,Study completed
+613,male,29,West Midlands,urban,12,Never injected,Urgent housing problem,Health services/social care,Yes,standard of care,46.4,22,720,Study completed
+614,female,42,North East,rural,1,Currently injecting,Housing problem,Criminal justice,Yes,peer mentoring,46.8,162,720,Study completed
+615,male,46,North West,urban,18,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,64.4,7,720,Study completed
+616,male,38,North East,urban,4,Never injected,No problem,Criminal justice,Yes,standard of care,34.7,416,720,Study completed
+617,male,38,South East,urban,20,Currently injecting,Urgent housing problem,Self/family/friends,Yes,standard of care,53.3,,720,Study completed
+618,male,32,North East,urban,23,Never injected,No problem,Self/family/friends,Yes,standard of care,55.2,,720,Study completed
+619,female,57,South East,urban,40,Previously injected,No problem,Self/family/friends,No,peer mentoring,20.5,,720,Study completed
+620,male,34,North West,urban,1,Previously injected,Housing problem,Criminal justice,No,peer mentoring,36.3,,720,Study completed
+621,male,36,West Midlands,urban,28,Never injected,No problem,Health services/social care,No,standard of care,27.5,,720,Study completed
+622,male,37,North West,rural,3,Previously injected,No problem,Criminal justice,Yes,peer mentoring,54.3,679,720,Study completed
+623,male,35,South East,urban,44,Previously injected,No problem,Criminal justice,No,standard of care,35.8,388,720,Study completed
+624,male,43,North West,urban,24,Never injected,No problem,Criminal justice,Yes,standard of care,61.8,,720,Study completed
+625,male,24,South East,urban,1,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,47.8,69,720,Study completed
+626,male,39,North West,urban,20,Never injected,No problem,Health services/social care,No,peer mentoring,31.8,,720,Study completed
+627,male,27,South East,rural,5,Previously injected,Urgent housing problem,Criminal justice,Yes,standard of care,50.7,302,720,Study completed
+628,male,56,West Midlands,urban,60,Previously injected,No problem,Criminal justice,Yes,standard of care,36.2,232,720,Study completed
+629,male,30,North East,urban,38,Previously injected,No problem,Health services/social care,No,peer mentoring,33.1,,720,Study completed
+630,male,32,North East,urban,4,Previously injected,Housing problem,Criminal justice,Yes,standard of care,33.8,,720,Study completed
+631,male,40,South East,urban,35,Never injected,No problem,Self/family/friends,Yes,peer mentoring,,,180,LTFU
+632,female,66,North East,urban,18,Never injected,No problem,Health services/social care,Yes,peer mentoring,,3,90,LTFU
+633,female,58,West Midlands,rural,15,Never injected,No problem,Self/family/friends,Yes,peer mentoring,52.4,,720,Study completed
+634,female,60,West Midlands,rural,5,Previously injected,Housing problem,Criminal justice,Yes,peer mentoring,50.2,2,720,Study completed
+635,female,69,North West,rural,12,Currently injecting,Urgent housing problem,Criminal justice,Yes,standard of care,44.3,457,720,Study completed
+636,female,62,South East,urban,2,Never injected,No problem,Self/family/friends,No,standard of care,,,0,LTFU
+637,male,29,South East,urban,3,Previously injected,No problem,Criminal justice,No,peer mentoring,52.6,10,720,Study completed
+638,male,49,South East,urban,19,Currently injecting,No problem,Self/family/friends,No,peer mentoring,47.4,25,720,Study completed
+639,male,40,North West,urban,12,Previously injected,No problem,Criminal justice,Yes,standard of care,34.7,,720,Study completed
+640,male,34,North East,urban,43,Never injected,Urgent housing problem,Self/family/friends,Yes,standard of care,56.5,,720,Study completed
+641,female,45,North East,rural,3,Never injected,No problem,Health services/social care,No,standard of care,,,270,LTFU
+642,male,34,South East,urban,4,Previously injected,Housing problem,Criminal justice,No,peer mentoring,36.6,12,720,Study completed
+643,male,35,North West,urban,52,Currently injecting,No problem,Self/family/friends,No,peer mentoring,46.7,51,720,Study completed
+644,male,29,South East,urban,18,Previously injected,Urgent housing problem,Self/family/friends,Yes,standard of care,52.5,179,720,Study completed
+645,male,27,South East,urban,4,Previously injected,Urgent housing problem,Health services/social care,No,standard of care,18.9,215,720,Study completed
+646,male,39,North West,rural,18,Currently injecting,No problem,Self/family/friends,No,peer mentoring,57.8,199,720,Study completed
+647,female,49,North West,urban,29,Currently injecting,Urgent housing problem,Health services/social care,No,standard of care,47.5,,720,Study completed
+648,male,35,West Midlands,urban,8,Previously injected,No problem,Criminal justice,No,standard of care,31,205,720,Study completed
+649,male,37,North West,urban,5,Never injected,Urgent housing problem,Criminal justice,No,peer mentoring,17.4,,720,Study completed
+650,male,22,North East,urban,34,Never injected,No problem,Health services/social care,Yes,standard of care,62,,720,Study completed
+651,male,42,North West,urban,6,Never injected,No problem,Self/family/friends,No,standard of care,29.2,201,720,Study completed
+652,female,48,West Midlands,urban,58,Currently injecting,Housing problem,Self/family/friends,No,standard of care,40.7,,720,Study completed
+653,male,33,North West,urban,9,Never injected,No problem,Criminal justice,No,standard of care,,,0,LTFU
+654,male,33,North West,urban,1,Previously injected,Urgent housing problem,Self/family/friends,No,peer mentoring,47.5,,720,Study completed
+655,female,48,West Midlands,urban,48,Never injected,Housing problem,Self/family/friends,Yes,peer mentoring,43.6,,720,Study completed
+656,female,66,North West,rural,9,Previously injected,No problem,Criminal justice,No,peer mentoring,35.1,46,720,Study completed
+657,male,29,North West,urban,6,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,42.7,514,720,Study completed
+658,female,42,North East,urban,42,Never injected,No problem,Self/family/friends,Yes,peer mentoring,43.1,,720,Study completed
+659,male,43,North East,urban,27,Never injected,Housing problem,Self/family/friends,Yes,peer mentoring,52.5,,720,Study completed
+660,female,34,North East,urban,6,Currently injecting,No problem,Health services/social care,Yes,peer mentoring,48,283,720,Study completed
+661,female,46,South East,rural,16,Currently injecting,No problem,Self/family/friends,No,peer mentoring,52.7,,720,Study completed
+662,female,38,West Midlands,urban,3,Never injected,No problem,Health services/social care,Yes,peer mentoring,38.1,,720,Study completed
+663,male,39,South East,urban,6,Previously injected,No problem,Self/family/friends,Yes,standard of care,59.4,,720,Study completed
+664,male,26,North East,urban,5,Currently injecting,Housing problem,Health services/social care,No,standard of care,44.4,,720,Study completed
+665,male,43,South East,urban,36,Previously injected,Housing problem,Criminal justice,No,peer mentoring,43.6,18,720,Study completed
+666,male,34,South East,urban,1,Never injected,Housing problem,Health services/social care,Yes,standard of care,51.1,214,720,Study completed
+667,male,26,West Midlands,urban,5,Never injected,Housing problem,Self/family/friends,Yes,peer mentoring,47.4,691,720,Study completed
+668,male,44,North West,urban,44,Currently injecting,No problem,Self/family/friends,Yes,peer mentoring,54.5,,720,Study completed
+669,female,67,South East,rural,51,Never injected,No problem,Criminal justice,No,standard of care,36.3,85,720,Study completed
+670,male,34,West Midlands,urban,6,Never injected,Housing problem,Criminal justice,No,standard of care,27.1,,360,LTFU
+671,male,26,North East,urban,14,Never injected,No problem,Self/family/friends,Yes,standard of care,53.5,,720,Study completed
+672,male,44,South East,urban,13,Never injected,No problem,Self/family/friends,No,standard of care,42.6,,720,Study completed
+673,male,27,West Midlands,urban,8,Never injected,Housing problem,Self/family/friends,Yes,peer mentoring,55.5,,720,Study completed
+674,male,35,North West,urban,10,Currently injecting,Urgent housing problem,Health services/social care,No,standard of care,,,0,LTFU
+675,male,28,West Midlands,rural,7,Never injected,No problem,Self/family/friends,Yes,peer mentoring,56.9,,720,Study completed
+676,male,38,North West,urban,1,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,53.3,10,720,Study completed
+677,male,40,North East,urban,2,Never injected,No problem,Self/family/friends,Yes,standard of care,53.9,89,720,Study completed
+678,male,33,South East,urban,1,Currently injecting,Urgent housing problem,Self/family/friends,Yes,standard of care,,,90,LTFU
+679,male,37,North East,urban,11,Previously injected,Urgent housing problem,Health services/social care,Yes,standard of care,52.8,42,720,Study completed
+680,male,36,North East,urban,37,Previously injected,No problem,Self/family/friends,No,peer mentoring,,20,270,LTFU
+681,male,24,West Midlands,urban,1,Currently injecting,Housing problem,Criminal justice,Yes,peer mentoring,26.2,648,720,Study completed
+682,male,47,North East,urban,19,Never injected,No problem,Self/family/friends,Yes,standard of care,61.1,119,720,Study completed
+683,male,29,South East,urban,8,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,41.4,,720,Study completed
+684,male,43,West Midlands,urban,28,Never injected,No problem,Self/family/friends,Yes,standard of care,59.7,411,720,Study completed
+685,female,42,North West,rural,13,Never injected,No problem,Self/family/friends,No,standard of care,36.7,,720,Study completed
+686,male,44,South East,rural,4,Currently injecting,No problem,Self/family/friends,No,peer mentoring,,,0,LTFU
+687,female,39,South East,rural,12,Previously injected,Housing problem,Self/family/friends,Yes,peer mentoring,56,,720,Study completed
+688,male,33,North West,urban,1,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,46.2,38,720,Study completed
+689,male,30,North West,urban,29,Currently injecting,No problem,Criminal justice,Yes,standard of care,33.8,55,720,Study completed
+690,male,30,South East,rural,17,Currently injecting,Housing problem,Health services/social care,No,standard of care,28.7,,720,Study completed
+691,male,29,South East,rural,26,Currently injecting,Urgent housing problem,Health services/social care,No,standard of care,45.3,,720,Study completed
+692,male,30,North East,rural,15,Never injected,No problem,Health services/social care,Yes,standard of care,59.6,,720,Study completed
+693,male,43,South East,urban,21,Previously injected,No problem,Self/family/friends,No,standard of care,51.9,55,450,LTFU
+694,female,38,North East,urban,12,Previously injected,No problem,Self/family/friends,No,standard of care,53.6,181,720,Study completed
+695,male,41,North East,urban,21,Previously injected,No problem,Health services/social care,No,standard of care,14.4,,720,Study completed
+696,male,31,West Midlands,urban,10,Never injected,Urgent housing problem,Self/family/friends,Yes,standard of care,46.1,174,720,Study completed
+697,male,41,South East,urban,10,Currently injecting,No problem,Health services/social care,No,standard of care,54.3,,720,Study completed
+698,male,30,North East,urban,12,Currently injecting,Urgent housing problem,Health services/social care,Yes,peer mentoring,32.7,9,720,Study completed
+699,male,54,North East,urban,18,Never injected,Housing problem,Health services/social care,Yes,standard of care,42.6,,720,Study completed
+700,male,42,North West,rural,21,Currently injecting,No problem,Self/family/friends,No,standard of care,45.5,6,540,LTFU
+701,female,42,North West,urban,29,Previously injected,No problem,Criminal justice,No,standard of care,,,0,LTFU
+702,male,42,South East,rural,13,Never injected,No problem,Self/family/friends,No,standard of care,57.6,207,630,LTFU
+703,male,38,North West,urban,20,Currently injecting,No problem,Criminal justice,No,standard of care,30.4,,720,Study completed
+704,male,43,North West,urban,3,Previously injected,Housing problem,Self/family/friends,Yes,standard of care,41.8,18,720,Study completed
+705,male,26,West Midlands,urban,51,Never injected,No problem,Criminal justice,Yes,peer mentoring,54.9,470,720,Study completed
+706,male,51,North West,urban,11,Never injected,No problem,Self/family/friends,Yes,peer mentoring,51.8,,720,Study completed
+707,male,33,North East,urban,16,Never injected,No problem,Health services/social care,No,peer mentoring,29.7,,720,Study completed
+708,male,47,South East,rural,8,Currently injecting,Urgent housing problem,Self/family/friends,Yes,peer mentoring,66.1,4,720,Study completed
+709,male,47,North East,urban,1,Currently injecting,No problem,Self/family/friends,No,standard of care,54.8,40,720,Study completed
+710,male,40,West Midlands,urban,6,Currently injecting,Urgent housing problem,Criminal justice,No,standard of care,,,0,LTFU
+711,male,46,South East,rural,48,Missing,Urgent housing problem,Health services/social care,No,peer mentoring,29.8,,450,LTFU
+712,male,28,South East,urban,21,Never injected,Urgent housing problem,Health services/social care,Yes,standard of care,32.3,,720,Study completed
+713,male,36,North West,urban,17,Never injected,Urgent housing problem,Criminal justice,Yes,standard of care,54.3,,360,LTFU
+714,male,32,West Midlands,urban,35,Previously injected,No problem,Self/family/friends,No,standard of care,32.5,263,720,Study completed
+715,male,40,South East,urban,4,Never injected,No problem,Criminal justice,Yes,peer mentoring,54.2,,720,Study completed
+716,male,40,North East,urban,21,Never injected,No problem,Self/family/friends,Yes,standard of care,47,401,720,Study completed
+717,male,35,South East,urban,27,Previously injected,No problem,Self/family/friends,No,standard of care,34.3,170,720,Study completed
+718,male,34,South East,urban,3,Currently injecting,Housing problem,Self/family/friends,Yes,peer mentoring,46.2,503,720,Study completed
+719,male,48,North West,rural,16,Never injected,No problem,Self/family/friends,Yes,standard of care,79.8,447,540,LTFU
+720,female,58,West Midlands,urban,31,Previously injected,No problem,Self/family/friends,No,peer mentoring,,167,270,LTFU
+721,male,36,North West,rural,19,Never injected,No problem,Self/family/friends,No,standard of care,50.5,545,720,Study completed
+722,female,39,West Midlands,urban,61,Previously injected,No problem,Self/family/friends,No,peer mentoring,,,270,LTFU
+723,male,38,North West,urban,23,Currently injecting,No problem,Criminal justice,No,peer mentoring,21.7,,720,Study completed
+724,male,49,South East,rural,49,Never injected,Urgent housing problem,Health services/social care,Yes,peer mentoring,,,180,LTFU
+725,female,49,West Midlands,urban,36,Currently injecting,Urgent housing problem,Criminal justice,No,standard of care,31.6,372,450,LTFU
+726,male,26,North West,urban,7,Currently injecting,No problem,Self/family/friends,No,peer mentoring,39.9,117,720,Study completed
+727,male,36,South East,urban,8,Never injected,Urgent housing problem,Self/family/friends,No,standard of care,44.8,,630,LTFU
+728,male,34,South East,urban,1,Previously injected,Urgent housing problem,Health services/social care,No,peer mentoring,,,0,LTFU
+729,male,36,North West,urban,12,Currently injecting,No problem,Health services/social care,Yes,standard of care,53.1,13,720,Study completed
+730,female,49,North West,rural,6,Never injected,No problem,Self/family/friends,Yes,standard of care,64.9,,720,Study completed
+731,female,39,West Midlands,urban,3,Currently injecting,Urgent housing problem,Self/family/friends,No,peer mentoring,47.8,,720,Study completed
+732,male,34,North East,urban,30,Currently injecting,Housing problem,Self/family/friends,No,peer mentoring,22.8,24,720,Study completed
+733,male,36,North East,urban,38,Previously injected,No problem,Self/family/friends,No,standard of care,39,3,360,LTFU
+734,male,31,North East,rural,18,Never injected,No problem,Self/family/friends,No,standard of care,34.4,,360,LTFU
+735,male,33,West Midlands,urban,1,Currently injecting,No problem,Criminal justice,Yes,standard of care,44,,720,Study completed
+736,male,43,North West,urban,5,Currently injecting,No problem,Health services/social care,Yes,peer mentoring,52,3,450,LTFU
+737,male,35,North West,urban,25,Currently injecting,No problem,Self/family/friends,Yes,standard of care,40.4,,720,Study completed
+738,male,34,South East,rural,3,Missing,Housing problem,Self/family/friends,No,standard of care,,,0,LTFU
+739,male,44,South East,rural,18,Previously injected,Urgent housing problem,Criminal justice,Yes,peer mentoring,43,566,720,Study completed
+740,male,30,West Midlands,urban,8,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,54,,720,Study completed
+741,female,54,North West,rural,3,Never injected,No problem,Criminal justice,Yes,standard of care,58.2,364,720,Study completed
+742,male,41,North West,urban,0,Currently injecting,Urgent housing problem,Criminal justice,No,peer mentoring,38.6,,540,LTFU
+743,female,54,North West,rural,8,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,48.7,,540,LTFU
+744,male,34,West Midlands,rural,1,Previously injected,Urgent housing problem,Self/family/friends,No,peer mentoring,59.7,,720,Study completed
+745,male,38,West Midlands,urban,16,Previously injected,No problem,Health services/social care,Yes,peer mentoring,39.7,,720,Study completed
+746,male,38,North East,urban,0,Previously injected,No problem,Criminal justice,Yes,peer mentoring,44.6,546,720,Study completed
+747,male,36,South East,rural,53,Previously injected,No problem,Criminal justice,Yes,standard of care,49.2,,720,Study completed
+748,female,56,South East,rural,44,Never injected,No problem,Self/family/friends,Yes,standard of care,,,0,LTFU
+749,female,55,South East,urban,18,Previously injected,Urgent housing problem,Self/family/friends,No,peer mentoring,,,0,LTFU
+750,male,38,North East,rural,12,Currently injecting,No problem,Criminal justice,Yes,standard of care,63,657,720,Study completed
+751,male,31,North East,urban,1,Currently injecting,Urgent housing problem,Health services/social care,No,peer mentoring,,,0,LTFU
+752,male,43,West Midlands,urban,26,Never injected,No problem,Criminal justice,Yes,peer mentoring,24.7,,720,Study completed
+753,female,54,North West,urban,75,Missing,No problem,Self/family/friends,No,standard of care,,,180,LTFU
+754,male,32,West Midlands,urban,19,Never injected,No problem,Health services/social care,Yes,standard of care,63.1,142,720,Study completed
+755,male,29,North East,urban,24,Previously injected,Housing problem,Health services/social care,No,peer mentoring,32,660,720,Study completed
+756,male,25,South East,urban,45,Never injected,No problem,Self/family/friends,Yes,peer mentoring,56.9,,720,Study completed
+757,female,54,North West,urban,0,Never injected,Housing problem,Health services/social care,No,standard of care,31.9,694,720,Study completed
+758,male,26,North East,urban,12,Previously injected,Housing problem,Health services/social care,No,peer mentoring,39.2,661,720,Study completed
+759,male,26,West Midlands,urban,64,Currently injecting,Housing problem,Self/family/friends,Yes,standard of care,46.7,,720,Study completed
+760,male,35,West Midlands,urban,14,Never injected,No problem,Self/family/friends,Yes,peer mentoring,63.9,,720,Study completed
+761,female,41,North East,rural,6,Never injected,Urgent housing problem,Health services/social care,Yes,standard of care,52.3,,720,Study completed
+762,male,56,West Midlands,urban,72,Previously injected,Housing problem,Self/family/friends,Yes,peer mentoring,50.7,56,720,Study completed
+763,male,27,North West,rural,15,Currently injecting,Housing problem,Health services/social care,No,standard of care,48.7,12,720,Study completed
+764,male,57,North West,rural,46,Previously injected,Housing problem,Self/family/friends,No,standard of care,59.6,50,720,Study completed
+765,male,43,South East,urban,60,Currently injecting,Housing problem,Criminal justice,No,standard of care,43,100,720,Study completed
+766,female,45,West Midlands,rural,18,Currently injecting,No problem,Criminal justice,Yes,standard of care,43,15,720,Study completed
+767,male,42,North West,urban,1,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,57,257,720,Study completed
+768,male,39,North West,urban,15,Previously injected,Urgent housing problem,Criminal justice,Yes,peer mentoring,49.1,187,720,Study completed
+769,male,44,North West,urban,17,Previously injected,No problem,Self/family/friends,No,standard of care,34.4,,720,Study completed
+770,male,43,North East,urban,6,Previously injected,Housing problem,Self/family/friends,Yes,peer mentoring,73.2,,720,Study completed
+771,male,38,South East,rural,3,Previously injected,Urgent housing problem,Criminal justice,Yes,peer mentoring,41.7,,720,Study completed
+772,male,35,West Midlands,urban,11,Currently injecting,No problem,Self/family/friends,No,standard of care,32.9,,720,Study completed
+773,female,52,South East,urban,6,Previously injected,No problem,Self/family/friends,No,peer mentoring,24.6,,720,Study completed
+774,female,43,South East,urban,37,Previously injected,Urgent housing problem,Health services/social care,No,peer mentoring,,,0,LTFU
+775,male,52,West Midlands,urban,2,Never injected,No problem,Self/family/friends,Yes,peer mentoring,44.5,51,720,Study completed
+776,male,46,North West,urban,4,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,25.3,,720,Study completed
+777,male,26,West Midlands,urban,24,Never injected,Urgent housing problem,Self/family/friends,Yes,peer mentoring,56.3,56,720,Study completed
+778,male,39,South East,rural,12,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,55.2,27,720,Study completed
+779,female,46,West Midlands,urban,2,Never injected,No problem,Criminal justice,Yes,standard of care,54.8,,720,Study completed
+780,male,40,West Midlands,urban,11,Currently injecting,No problem,Self/family/friends,Yes,standard of care,64.1,,720,Study completed
+781,male,43,West Midlands,urban,24,Previously injected,No problem,Self/family/friends,No,peer mentoring,,,0,LTFU
+782,female,51,South East,urban,2,Never injected,Urgent housing problem,Self/family/friends,No,peer mentoring,36,,720,Study completed
+783,male,49,West Midlands,rural,43,Currently injecting,Urgent housing problem,Self/family/friends,No,standard of care,41.3,,720,Study completed
+784,female,35,South East,urban,12,Never injected,Urgent housing problem,Self/family/friends,Yes,standard of care,52.6,,720,Study completed
+785,male,42,West Midlands,urban,18,Currently injecting,No problem,Self/family/friends,No,standard of care,50.3,13,720,Study completed
+786,male,32,West Midlands,urban,22,Currently injecting,Housing problem,Self/family/friends,No,peer mentoring,36.2,2,720,Study completed
+787,male,35,North East,rural,35,Previously injected,No problem,Self/family/friends,No,standard of care,28,,720,Study completed
+788,female,48,North West,urban,21,Never injected,No problem,Self/family/friends,Yes,standard of care,56.3,261,720,Study completed
+789,male,37,South East,urban,24,Never injected,No problem,Self/family/friends,Yes,standard of care,50.8,106,720,Study completed
+790,female,36,North East,rural,32,Never injected,Housing problem,Self/family/friends,Yes,peer mentoring,62.2,,720,Study completed
+791,male,41,West Midlands,rural,36,Never injected,No problem,Self/family/friends,Yes,standard of care,58.3,39,720,Study completed
+792,male,43,West Midlands,urban,43,Previously injected,Housing problem,Self/family/friends,No,standard of care,,,0,LTFU
+793,male,46,North East,rural,6,Never injected,No problem,Self/family/friends,Yes,standard of care,60.1,35,720,Study completed
+794,male,47,North West,urban,33,Previously injected,No problem,Criminal justice,No,peer mentoring,,9,180,LTFU
+795,female,51,South East,urban,6,Currently injecting,No problem,Self/family/friends,No,peer mentoring,26.2,,720,Study completed
+796,male,30,North West,urban,1,Never injected,Housing problem,Self/family/friends,No,standard of care,45.7,,720,Study completed
+797,female,48,South East,rural,9,Previously injected,Housing problem,Self/family/friends,No,peer mentoring,,,270,LTFU
+798,female,65,West Midlands,urban,18,Never injected,Housing problem,Criminal justice,Yes,peer mentoring,,29,270,LTFU
+799,male,28,South East,urban,4,Never injected,Urgent housing problem,Criminal justice,Yes,peer mentoring,27.7,411,720,Study completed
+800,female,54,North East,urban,9,Previously injected,No problem,Criminal justice,Yes,standard of care,35.1,111,720,Study completed
+801,male,33,West Midlands,urban,1,Previously injected,No problem,Self/family/friends,No,standard of care,48.1,99,720,Study completed
+802,male,44,South East,urban,17,Currently injecting,No problem,Self/family/friends,No,peer mentoring,50,,720,Study completed
+803,male,37,North West,urban,19,Previously injected,No problem,Self/family/friends,Yes,standard of care,45.1,294,720,Study completed
+804,male,44,West Midlands,rural,6,Currently injecting,No problem,Health services/social care,Yes,peer mentoring,68.7,23,720,Study completed
+805,male,26,West Midlands,urban,15,Currently injecting,No problem,Self/family/friends,Yes,peer mentoring,44.9,,720,Study completed
+806,female,51,West Midlands,urban,5,Currently injecting,No problem,Self/family/friends,No,peer mentoring,47.2,83,720,Study completed
+807,female,57,South East,rural,43,Never injected,Housing problem,Self/family/friends,Yes,standard of care,51.6,,720,Study completed
+808,female,43,West Midlands,rural,8,Currently injecting,No problem,Self/family/friends,Yes,standard of care,67,,720,Study completed
+809,female,36,North East,urban,18,Previously injected,Urgent housing problem,Health services/social care,No,standard of care,27.8,6,720,Study completed
+810,male,32,South East,urban,4,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,51.3,,720,Study completed
+811,male,31,North West,urban,36,Previously injected,Urgent housing problem,Health services/social care,Yes,standard of care,38.4,82,720,Study completed
+812,male,44,North East,urban,60,Currently injecting,No problem,Health services/social care,Yes,standard of care,47.6,138,720,Study completed
+813,male,38,West Midlands,rural,36,Never injected,No problem,Self/family/friends,Yes,standard of care,71.6,271,720,Study completed
+814,male,46,West Midlands,urban,18,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,65.5,,720,Study completed
+815,male,62,North East,urban,18,Previously injected,No problem,Self/family/friends,No,peer mentoring,36.3,44,540,LTFU
+816,male,40,South East,urban,41,Previously injected,No problem,Criminal justice,No,standard of care,31.2,192,450,LTFU
+817,male,32,West Midlands,rural,1,Currently injecting,No problem,Criminal justice,No,standard of care,35.2,19,720,Study completed
+818,male,32,West Midlands,urban,8,Never injected,Housing problem,Self/family/friends,No,peer mentoring,,,180,LTFU
+819,male,40,North East,urban,3,Previously injected,No problem,Criminal justice,Yes,peer mentoring,55.7,,720,Study completed
+820,male,33,North East,urban,20,Never injected,No problem,Self/family/friends,Yes,peer mentoring,50.1,,720,Study completed
+821,female,85,North West,rural,18,Never injected,Urgent housing problem,Self/family/friends,Yes,standard of care,58.7,40,720,Study completed
+822,male,31,North East,urban,2,Never injected,Urgent housing problem,Health services/social care,No,standard of care,31.5,,720,Study completed
+823,male,38,West Midlands,urban,18,Currently injecting,Housing problem,Criminal justice,No,peer mentoring,,,0,LTFU
+824,male,50,South East,urban,2,Currently injecting,No problem,Criminal justice,Yes,peer mentoring,40.8,28,720,Study completed
+825,male,33,West Midlands,urban,24,Previously injected,Urgent housing problem,Self/family/friends,No,standard of care,39.5,19,720,Study completed
+826,male,37,West Midlands,urban,12,Previously injected,Urgent housing problem,Criminal justice,Yes,peer mentoring,46.1,179,720,Study completed
+827,male,32,South East,urban,11,Previously injected,No problem,Criminal justice,Yes,standard of care,37,,450,LTFU
+828,female,49,North West,rural,13,Previously injected,Housing problem,Self/family/friends,Yes,standard of care,58.2,,630,LTFU
+829,male,48,South East,urban,18,Previously injected,Housing problem,Self/family/friends,No,standard of care,50.1,71,720,Study completed
+830,male,51,North East,urban,2,Never injected,No problem,Health services/social care,No,peer mentoring,35.1,102,720,Study completed
+831,female,50,South East,urban,54,Never injected,No problem,Self/family/friends,Yes,standard of care,48.7,39,720,Study completed
+832,male,34,North East,rural,21,Never injected,No problem,Self/family/friends,Yes,peer mentoring,72.8,,720,Study completed
+833,male,29,North East,urban,14,Previously injected,No problem,Self/family/friends,Yes,standard of care,38.7,243,720,Study completed
+834,male,44,North East,rural,12,Currently injecting,No problem,Criminal justice,Yes,standard of care,49.3,349,720,Study completed
+835,male,34,West Midlands,urban,107,Currently injecting,No problem,Self/family/friends,No,standard of care,,,180,LTFU
+836,female,56,North East,urban,18,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,51.9,,720,Study completed
+837,male,34,North East,urban,20,Previously injected,No problem,Criminal justice,No,peer mentoring,,,180,LTFU
+838,male,41,North West,urban,12,Never injected,Housing problem,Criminal justice,No,peer mentoring,39.6,272,720,Study completed
+839,male,35,North West,urban,69,Never injected,Urgent housing problem,Self/family/friends,Yes,standard of care,42.6,489,540,LTFU
+840,female,54,West Midlands,urban,60,Currently injecting,Urgent housing problem,Self/family/friends,No,standard of care,,18,270,LTFU
+841,female,84,South East,urban,4,Previously injected,Urgent housing problem,Self/family/friends,Yes,standard of care,55.3,,720,Study completed
+842,female,49,West Midlands,urban,13,Never injected,Urgent housing problem,Criminal justice,Yes,peer mentoring,44.2,,720,Study completed
+843,male,42,West Midlands,rural,4,Never injected,No problem,Self/family/friends,No,standard of care,,,90,LTFU
+844,male,47,North West,rural,18,Previously injected,No problem,Criminal justice,Yes,standard of care,54.2,7,720,Study completed
+845,male,44,North East,urban,18,Previously injected,No problem,Self/family/friends,No,standard of care,40.1,33,720,Study completed
+846,female,56,North East,rural,19,Never injected,No problem,Self/family/friends,No,standard of care,20.4,72,720,Study completed
+847,male,28,South East,urban,59,Never injected,Urgent housing problem,Health services/social care,Yes,standard of care,40.7,29,720,Study completed
+848,male,41,South East,urban,6,Never injected,No problem,Self/family/friends,No,standard of care,14.6,,720,Study completed
+849,male,63,South East,urban,33,Never injected,Urgent housing problem,Criminal justice,Yes,standard of care,50.3,,720,Study completed
+850,male,37,North West,urban,11,Never injected,Housing problem,Self/family/friends,Yes,peer mentoring,53.4,,720,Study completed
+851,female,59,West Midlands,urban,26,Never injected,No problem,Health services/social care,No,standard of care,33.9,257,720,Study completed
+852,male,35,North East,urban,16,Never injected,No problem,Self/family/friends,Yes,peer mentoring,,,90,LTFU
+853,male,36,West Midlands,urban,18,Previously injected,Urgent housing problem,Self/family/friends,No,standard of care,50.3,,720,Study completed
+854,male,44,North East,rural,1,Previously injected,No problem,Self/family/friends,Yes,peer mentoring,55.7,12,720,Study completed
+855,male,27,North West,urban,12,Previously injected,No problem,Self/family/friends,No,peer mentoring,42.7,,720,Study completed
+856,female,51,North East,urban,53,Never injected,No problem,Self/family/friends,Yes,standard of care,55.9,,720,Study completed
+857,male,37,North East,urban,18,Never injected,No problem,Criminal justice,Yes,standard of care,36.6,105,720,Study completed
+858,male,40,North West,urban,57,Currently injecting,No problem,Self/family/friends,Yes,peer mentoring,53.6,,720,Study completed
+859,male,26,West Midlands,urban,1,Never injected,Urgent housing problem,Self/family/friends,No,standard of care,39.6,172,720,Study completed
+860,female,60,North East,urban,4,Never injected,Urgent housing problem,Health services/social care,Yes,peer mentoring,42.3,709,720,Study completed
+861,male,38,North West,urban,38,Previously injected,No problem,Self/family/friends,No,standard of care,,,90,LTFU
+862,female,36,West Midlands,urban,43,Previously injected,No problem,Criminal justice,Yes,peer mentoring,28.3,,720,Study completed
+863,male,34,North East,urban,11,Currently injecting,Housing problem,Self/family/friends,No,standard of care,23.5,,720,Study completed
+864,female,71,West Midlands,rural,6,Never injected,No problem,Self/family/friends,No,peer mentoring,47,,720,Study completed
