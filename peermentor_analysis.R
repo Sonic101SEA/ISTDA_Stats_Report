@@ -117,3 +117,5 @@ linear_model1 <- lm(data = peermentor_4, wellbeing1yr ~ intervention_factor +
                       injecting_status_factor +
                       housing_status_factor + rehab_success_factor)
 summary(linear_model1)
+par(mfrow = c(2,2))
+plot(linear_model1)
