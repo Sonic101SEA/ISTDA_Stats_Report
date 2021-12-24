@@ -66,6 +66,8 @@ peermentor_3 <- peermentor_3 %>%
   mutate(housing_status_factor = as.factor(housing_status))
 
 log_mod1 <- glm(data = peermentor_3, family = binomial(link = logit),
-                relapse_yes_no ~ intervention_factor + age + gender_factor + injecting_status_factor +
+                relapse_yes_no ~ intervention_factor + age + 
+                gender_factor + duration_use + 
+                injecting_status_factor +
                housing_status_factor + rehab_success_factor)
 summary(log_mod1)
