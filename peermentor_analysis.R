@@ -62,6 +62,7 @@ t.test(duration_use_success, duration_use_failure, var.equal = TRUE)
 
 
 # Analysis Aim 2: Logistic Regression -------------------------------------
+# Filtering missing data
 peermentor_3 <- peermentor_2 %>%
   filter(last_obs_outcome == "Study completed")
 
@@ -82,6 +83,7 @@ peermentor_3 <- peermentor_3 %>%
 peermentor_3 <- peermentor_3 %>%
   mutate(housing_status_factor = relevel(housing_status_factor, "No problem"))
 
+# Logistic Regression Model
 log_mod1 <- glm(data = peermentor_3, family = binomial(link = logit),
                 relapse_yes_no ~ intervention_factor + age + 
                 gender_factor + duration_use + 
@@ -109,7 +111,8 @@ peermentor_4 <- peermentor_4 %>%
 peermentor_4 <- peermentor_4 %>%
   mutate(housing_status_factor = relevel(housing_status_factor, "No problem"))
 
-linear_model1 <- lm(data = peermentor_3, wellbeing1yr ~ intervention_factor + 
+# Linear model
+linear_model1 <- lm(data = peermentor_4, wellbeing1yr ~ intervention_factor + 
                       age + gender_factor + duration_use + 
                       injecting_status_factor +
                       housing_status_factor + rehab_success_factor)
