@@ -30,7 +30,18 @@ peermentor_2 <- peermentor %>%
 peermentor_2 <- peermentor_2 %>%
   mutate(injecting_status_factor = as.factor(injecting_status))
 
+# Chi-square test for rehab_success and injecting_status
 chisq.test(table(peermentor_2$rehab_success_factor, 
                  peermentor_2$injecting_status_factor))
 
+# Selecting duration use for successful
+duration_use_success <- peermentor %>%
+  filter(rehab_success_factor == 1) %>%
+  select(rehab_success_factor, duration_use)
 
+# Selecting duration use for unsuccessful
+duration_use_failure <- peermentor %>%
+  filter(rehab_success_factor == 0) %>%
+  select(rehab_success_factor, duration_use)
+
+# 2 sample t-test to see difference
