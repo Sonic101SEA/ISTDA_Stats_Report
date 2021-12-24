@@ -65,9 +65,28 @@ peermentor_3 <- peermentor_3 %>%
   filter(housing_status != "Other") %>%
   mutate(housing_status_factor = as.factor(housing_status))
 
+# Releveling
+peermentor_3 <- peermentor_3 %>%
+  mutate(intervention_factor = relevel(intervention_factor, "standard of care"))
+
+peermentor_3 <- peermentor_3 %>%
+  mutate(injecting_status_factor = relevel(injecting_status_factor, "Never injected"))
+
+peermentor_3 <- peermentor_3 %>%
+  mutate(housing_status_factor = relevel(housing_status_factor, "No problem"))
+
 log_mod1 <- glm(data = peermentor_3, family = binomial(link = logit),
                 relapse_yes_no ~ intervention_factor + age + 
                 gender_factor + duration_use + 
                 injecting_status_factor +
                housing_status_factor + rehab_success_factor)
 summary(log_mod1)
+
+
+# Analysis Aim 3: Linear Regression ---------------------------------------
+
+linear_model1 <- lm(data = peermentor_3, wellbeing1yr ~ intervention_factor + 
+                      age + gender_factor + duration_use + 
+                      injecting_status_factor +
+                      housing_status_factor + rehab_success_factor)
+summary(linear_model1)
