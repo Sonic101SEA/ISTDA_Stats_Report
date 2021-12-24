@@ -33,6 +33,7 @@ peermentor_2 <- peermentor %>%
 peermentor_2 <- peermentor_2 %>%
   mutate(injecting_status_factor = as.factor(injecting_status))
 
+
 # Chi-square test for rehab_success and injecting_status
 chisq.test(table(peermentor_2$rehab_success_factor, 
                  peermentor_2$injecting_status_factor))
@@ -46,6 +47,12 @@ duration_use_success <- peermentor %>%
 duration_use_failure <- peermentor %>%
   filter(rehab_success_factor == "No") %>%
   select(duration_use)
+
+# Boxplot for rehab success and failure duration use
+peermentor %>% ggplot(aes(x = rehab_success_factor, y = duration_use)) +
+  geom_boxplot(fill = c("red", "blue")) +
+  theme_minimal() + ggtitle("Boxplot showing duration use between rehab success and failure")
+
 
 # 2 sample t-test to see difference
 # Unequal variance
