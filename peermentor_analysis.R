@@ -91,6 +91,23 @@ summary(log_mod1)
 
 
 # Analysis Aim 3: Linear Regression ---------------------------------------
+# Filtering out NA in wellbeing1yr
+peermentor_4 <- peermentor_2 %>%
+  filter(!is.na(wellbeing1yr)) 
+
+peermentor_4 <- peermentor_4 %>%
+  filter(housing_status != "Other") %>%
+  mutate(housing_status_factor = as.factor(housing_status))
+
+# Releveling
+peermentor_4 <- peermentor_4 %>%
+  mutate(intervention_factor = relevel(intervention_factor, "standard of care"))
+
+peermentor_4 <- peermentor_4 %>%
+  mutate(injecting_status_factor = relevel(injecting_status_factor, "Never injected"))
+
+peermentor_4 <- peermentor_4 %>%
+  mutate(housing_status_factor = relevel(housing_status_factor, "No problem"))
 
 linear_model1 <- lm(data = peermentor_3, wellbeing1yr ~ intervention_factor + 
                       age + gender_factor + duration_use + 
