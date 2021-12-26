@@ -90,12 +90,14 @@ log_mod1 <- glm(data = peermentor_3, family = binomial(link = logit),
                 injecting_status_factor +
                housing_status_factor + rehab_success_factor)
 
+# Does not include rehab_success
 log_mod2 <- glm(data = peermentor_3, family = binomial(link = logit),
                 relapse_yes_no ~ intervention_factor + age + 
                   gender_factor + duration_use + 
                   injecting_status_factor +
                   housing_status_factor)
 
+# Does not include injecting_status and duration_use
 log_mod3 <- glm(data = peermentor_3, family = binomial(link = logit),
                 relapse_yes_no ~ intervention_factor + age + 
                   gender_factor + 
@@ -129,11 +131,13 @@ linear_model1 <- lm(data = peermentor_4, wellbeing1yr ~ intervention_factor +
                       injecting_status_factor +
                       housing_status_factor + rehab_success_factor)
 
+# Does not include rehab_success
 linear_model2 <- lm(data = peermentor_4, wellbeing1yr ~ intervention_factor + 
                       age + gender_factor + duration_use + 
                       injecting_status_factor +
                       housing_status_factor)
 
+# Does not include injecting_status and duration_use
 linear_model3 <- lm(data = peermentor_4, wellbeing1yr ~ intervention_factor + 
                       age + gender_factor + 
                       housing_status_factor + rehab_success_factor)
