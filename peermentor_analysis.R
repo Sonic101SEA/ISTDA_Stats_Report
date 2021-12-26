@@ -89,8 +89,20 @@ log_mod1 <- glm(data = peermentor_3, family = binomial(link = logit),
                 gender_factor + duration_use + 
                 injecting_status_factor +
                housing_status_factor + rehab_success_factor)
-summary(log_mod1)
 
+log_mod2 <- glm(data = peermentor_3, family = binomial(link = logit),
+                relapse_yes_no ~ intervention_factor + age + 
+                  gender_factor + duration_use + 
+                  injecting_status_factor +
+                  housing_status_factor)
+
+log_mod3 <- glm(data = peermentor_3, family = binomial(link = logit),
+                relapse_yes_no ~ intervention_factor + age + 
+                  gender_factor + 
+                  rehab_success_factor + housing_status_factor)
+summary(log_mod1)
+summary(log_mod2)
+summary(log_mod3)
 
 # Analysis Aim 3: Linear Regression ---------------------------------------
 # Filtering out NA in wellbeing1yr
@@ -116,7 +128,19 @@ linear_model1 <- lm(data = peermentor_4, wellbeing1yr ~ intervention_factor +
                       age + gender_factor + duration_use + 
                       injecting_status_factor +
                       housing_status_factor + rehab_success_factor)
+
+linear_model2 <- lm(data = peermentor_4, wellbeing1yr ~ intervention_factor + 
+                      age + gender_factor + duration_use + 
+                      injecting_status_factor +
+                      housing_status_factor)
+
+linear_model3 <- lm(data = peermentor_4, wellbeing1yr ~ intervention_factor + 
+                      age + gender_factor + 
+                      housing_status_factor + rehab_success_factor)
+
 summary(linear_model1)
+summary(linear_model2)
+summary(linear_model3)
 
 # Checking linear model assumptions
 par(mfrow = c(2,2))
