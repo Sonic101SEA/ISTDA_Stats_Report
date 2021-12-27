@@ -102,9 +102,19 @@ log_mod3 <- glm(data = peermentor_3, family = binomial(link = logit),
                 relapse_yes_no ~ intervention_factor + age + 
                   gender_factor + 
                   rehab_success_factor + housing_status_factor)
+
+# Including interaction term
+log_mod4 <- glm(data = peermentor_3, family = binomial(link = logit),
+                relapse_yes_no ~age + duration_use +
+                  housing_status_factor + rehab_success_factor + 
+                  intervention_factor + gender_factor + injecting_status_factor +
+                intervention_factor : gender_factor + intervention_factor : injecting_status_factor)
+
 summary(log_mod1)
 summary(log_mod2)
 summary(log_mod3)
+summary(log_mod4)
+confint(log_mod1)
 
 # Analysis Aim 3: Linear Regression ---------------------------------------
 # Filtering out NA in wellbeing1yr
@@ -148,11 +158,20 @@ linear_model4 <- lm(data = peermentor_4, wellbeing1yr ~ intervention_factor +
                       injecting_status_factor +
                       housing_status_factor + rehab_success_factor)
 
+# Interaction with intervention and gender/injecting status without triple interaction
+linear_model5 <- lm(data = peermentor_4, wellbeing1yr ~  age + duration_use +
+                      housing_status_factor + rehab_success_factor + 
+                    intervention_factor + gender_factor + injecting_status_factor +
+                      intervention_factor : gender_factor + intervention_factor : injecting_status_factor)
+
 summary(linear_model1)
 summary(linear_model2)
 summary(linear_model3)
 summary(linear_model4)
+summary(linear_model5)
 car::vif(linear_model1) # Checking for collinearity
+confint(linear_model1)
+jtools :: summ(linear_model1)
 
 # Checking linear model assumptions
 par(mfrow = c(2,2))
