@@ -142,9 +142,17 @@ linear_model3 <- lm(data = peermentor_4, wellbeing1yr ~ intervention_factor +
                       age + gender_factor + 
                       housing_status_factor + rehab_success_factor)
 
+# With interaction
+linear_model4 <- lm(data = peermentor_4, wellbeing1yr ~ intervention_factor + 
+                      age + gender_factor + duration_use * 
+                      injecting_status_factor +
+                      housing_status_factor + rehab_success_factor)
+
 summary(linear_model1)
 summary(linear_model2)
 summary(linear_model3)
+summary(linear_model4)
+car::vif(linear_model1) # Checking for collinearity
 
 # Checking linear model assumptions
 par(mfrow = c(2,2))
