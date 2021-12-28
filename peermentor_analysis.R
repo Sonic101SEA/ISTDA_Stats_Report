@@ -1,7 +1,7 @@
 # Libraries ---------------------------------------------------------------
 library(dplyr)
 library(ggplot2)
-
+library(gridExtra)
 
 
 # Data --------------------------------------------------------------------
@@ -114,7 +114,11 @@ summary(log_mod1)
 summary(log_mod2)
 summary(log_mod3)
 summary(log_mod4)
-confint(log_mod1)
+exp(confint(log_mod1))
+exp(coef(log_mod1)) # For odds ratio of model
+
+# Creating forest plot for odds ratio
+
 
 # Analysis Aim 3: Linear Regression ---------------------------------------
 # Filtering out NA in wellbeing1yr
@@ -171,7 +175,7 @@ summary(linear_model4)
 summary(linear_model5)
 car::vif(linear_model1) # Checking for collinearity
 confint(linear_model1)
-jtools :: summ(linear_model1)
+jtools :: summ(linear_model1, confint = TRUE, digits = 5)
 
 # Checking linear model assumptions
 par(mfrow = c(2,2))
