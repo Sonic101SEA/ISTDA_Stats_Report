@@ -2,7 +2,7 @@
 library(dplyr)
 library(ggplot2)
 library(gridExtra)
-
+library(tableone)
 
 # Data --------------------------------------------------------------------
 peermentor <- read.csv(here::here("data/peermentor.csv"))
@@ -249,3 +249,7 @@ jtools :: summ(linear_model1, confint = TRUE, digits = 5)
 # Checking linear model assumptions
 par(mfrow = c(2,2))
 plot(linear_model1)
+
+# Descriptive Statistics --------------------------------------------------
+CreateTableOne(data = peermentor)
+
