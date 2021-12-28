@@ -118,7 +118,76 @@ exp(confint(log_mod1))
 exp(coef(log_mod1)) # For odds ratio of model
 
 # Creating forest plot for odds ratio
+dat <- data.frame(
+  Index = c(1,2,3,4,5,6,7,8,9),
+  label = c("Intervention: Peer Mentoring vs standard",
+            "Age(in years)",
+            "Gender: Male vs Female",
+            "Duration of opiate use prior to study (in months)",
+            "Injecting status: Currently injecting prior to study vs not injecting",
+            "Injecting status: Previously injected prior to study vs not injecting",
+            "Housing status: Housing problem vs No problem",
+            "Housing status: Urgent housing problem vs No problem",
+            "Rehabilitation therapy outcome: Success vs Failure"),
+  OR = c(0.58, 1.00, 1.06, 0.99, 1.50, 1.66, 1.22, 1.27, 1.22),
+  LL = c(0.42, 0.98, 0.68, 0.98, 1.00, 1.14, 0.80, 0.85, 0.87),
+  UL = c(0.79, 1.02, 1.64, 1.00, 2.26, 2.41, 1.86, 1.91, 1.71),
+  CI = c("0.42, 0.79", "0.98, 1.02", 
+         "0.68, 1.64", "0.98, 1.00", "1.00, 2.26", 
+         "1.14, 2.41", "0.80, 1.86", "0.85. 1.91", "0.87. 1.71"),
+  p = c("< 0.001 ***", "0.89", "0.81", "0.17", "0.05", "< 0.01 **", "0.36", "0.25", "0.25")
+)
 
+forest1 <- ggplot(dat, aes(y = Index, x = OR)) +
+  geom_point(shape = 18, size = 5) +  
+  geom_errorbarh(aes(xmin = LL, xmax = UL), height = 0.25) +
+  geom_vline(xintercept = 1, color = "red", linetype = "dashed", cex = 1, alpha = 0.5) +
+  scale_y_continuous(name = "", breaks=1:9, labels = dat$label, trans = "reverse") +
+  xlab("Odds Ratio (95% CI)") + 
+  ylab(" ") + 
+  theme_bw() +
+  theme(panel.border = element_blank(),
+        panel.background = element_blank(),
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(), 
+        axis.line = element_line(colour = "black"),
+        axis.text.y = element_text(size = 12, colour = "black"),
+        axis.text.x.bottom = element_text(size = 12, colour = "black"),
+        axis.title.x = element_text(size = 12, colour = "black"))
+
+## Create the table-base pallete
+table_base <- ggplot(dat, aes(y=label)) +
+  ylab(NULL) + xlab("  ") + 
+  theme(plot.title = element_text(hjust = 0.5, size=12), 
+        axis.text.x = element_text(color="white", hjust = -3, size = 25), ## This is used to help with alignment
+        axis.line = element_blank(),
+        axis.text.y = element_blank(), 
+        axis.ticks = element_blank(),
+        axis.title.y = element_blank(), 
+        legend.position = "none",
+        panel.background = element_blank(), 
+        panel.border = element_blank(), 
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(), 
+        plot.background = element_blank())
+
+## OR point estimate table
+tab1 <- table_base + 
+  labs(title = "space") +
+  geom_text(aes(y = rev(Index), x = 1, label = sprintf("%0.02f", round(OR, digits = 3))), size = 4) + ## decimal places
+  ggtitle("OR")
+
+## 95% CI table
+tab2 <- table_base +
+  geom_text(aes(y = rev(Index), x = 1, label = CI), size = 4) + 
+  ggtitle("95% CI")
+
+tab3 <- table_base + 
+  geom_text(aes(y = rev(Index), x = 1, label = p), size = 4) + 
+  ggtitle("p-value")
+
+lay <-  matrix(c(1,1,1,1,1,1,1,1,1,1,2,3,3,4,4), nrow = 1)
+grid.arrange(forest1, tab1, tab2, tab3, layout_matrix = lay)
 
 # Analysis Aim 3: Linear Regression ---------------------------------------
 # Filtering out NA in wellbeing1yr
