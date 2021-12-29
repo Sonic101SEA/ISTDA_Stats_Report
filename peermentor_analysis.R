@@ -251,5 +251,8 @@ par(mfrow = c(2,2))
 plot(linear_model1)
 
 # Descriptive Statistics --------------------------------------------------
-CreateTableOne(data = peermentor)
+tableone <- CreateTableOne(data = peermentor)
+tab3Mat <- print(tableone, exact = "stage", quote = FALSE, noSpaces = TRUE, printToggle = FALSE)
+## Save to a CSV file
+write.csv(tab3Mat, file = "myTable.csv")
 
