@@ -329,7 +329,7 @@ dat2 <- data.frame(
   CI = c("0.45, 0.79", "0.99, 1.02", 
          "0.77, 1.67", "0.99, 1.00", "1.07, 2.18", 
          "1.12, 2.17", "0.72, 1.50", "0.81, 1.64", "1.34, 2.39"),
-  p = c("< 0.001 ***", "0.53", "0.52", "0.14", "0.02", "< 0.01 **", "0.84", "0.42", " < 0.001 ***")
+  p = c("< 0.001 ***", "0.53", "0.52", "0.14", "0.02 *", "< 0.01 **", "0.84", "0.42", " < 0.001 ***")
 )
 
 forest1 <- ggplot(dat2, aes(y = Index, x = OR)) +
@@ -385,4 +385,19 @@ grid.arrange(forest1, tab1, tab2, tab3, layout_matrix = lay)
 
 
 # Simple linear regression for aim 3
+peermentor_simple <- peermentor %>%
+  mutate(intervention_factor = relevel(intervention_factor, "standard of care"))
+linear_model_simple <- lm(data = peermentor_simple, wellbeing1yr ~ intervention_factor)
+summary(linear_model_simple)
 
+# Comparing peer vs normal group
+# Selecting duration use for successful
+intervention_peer <- peermentor %>%
+  filter(intervention_factor == "peer mentoring")
+
+# Selecting duration use for unsuccessful
+intervention_normal <- peermentor %>%
+  filter(intervention_factor == "standard of care")
+
+CreateTableOne(data = intervention_normal)
+CreateTableOne(data = intervention_peer)
